@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+CAUTION: Do not modify this file unless you know what you are doing.
+ Unexpected results may occur if the code is changed deliberately.
+-->
+<dbmodel pgmodeler-ver="1.2.1" use-changelog="false" max-obj-count="4"
+	 gen-disabled-objs-code="false" show-sys-schemas-rects="true"
+	 last-position="0,0" last-zoom="0.8" scene-rect="0,0,1591.03,1076.8"
+	 default-schema="public" default-owner="postgres"
+	 layers="Default layer"
+	 active-layers="0"
+	 layer-name-colors="#000000"
+	 layer-rect-colors="#b4b4b4"
+	 show-layer-names="false" show-layer-rects="false">
+<database name="sandbox" template="template_gisdb" is-template="false" allow-conns="true" sql-disabled="true" prepend-at-bod="true">
+	<comment> <![CDATA[This sandbox database for testing, training and learn PostGIS with various GIS tools]]> </comment>
+	<prepended-sql> <![CDATA[--\set ON_ERROR_STOP ON
+
+SET ROLE sandbox_admins;	
+
+ALTER DEFAULT PRIVILEGES  
+	GRANT SELECT, INSERT, UPDATE, DELETE, TRUNCATE ON TABLES 
+	TO sandbox_admins;
+
+-- TODO should we decline delete on editors?
+ALTER DEFAULT PRIVILEGES 
+	GRANT SELECT, INSERT, UPDATE, DELETE ON TABLES 
+	TO sandbox_editors;
+
+ALTER DEFAULT PRIVILEGES 
+	GRANT SELECT ON TABLES 
+	TO sandbox_viewers;
+
+ALTER DEFAULT PRIVILEGES  
+	GRANT USAGE, CREATE ON SCHEMAS
+	TO sandbox_admins;
+
+ALTER DEFAULT PRIVILEGES 
+	GRANT USAGE ON SCHEMAS
+	TO sandbox_viewers;
+]]> </prepended-sql>
+</database>
+
+<schema name="public" layers="0" fill-color="#e1e1e1" name-color="#000000" sql-disabled="true">
+</schema>
+
+<schema name="codelists" layers="0" rect-visible="true" fill-color="#e1e1e1" name-color="#eff0f1">
+</schema>
+
+<schema name="simple_features" layers="0" rect-visible="true" fill-color="#e1e1e1" name-color="#0000ff">
+	<comment> <![CDATA[This database includes simple features]]> </comment>
+	<appended-sql> <![CDATA[ALTER DEFAULT PRIVILEGES IN SCHEMA simple_features 
+	GRANT SELECT ON TABLES 
+	TO sandbox_viewers;
+
+ALTER DEFAULT PRIVILEGES IN SCHEMA simple_features 
+	GRANT SELECT, INSERT, UPDATE, DELETE ON TABLES 
+	TO sandbox_editors;
+
+ALTER DEFAULT PRIVILEGES IN SCHEMA simple_features 
+	GRANT SELECT, INSERT, UPDATE, DELETE, TRUNCATE ON TABLES 
+	TO sandbox_admins;]]> </appended-sql>
+</schema>
+
+<extension name="postgis" sql-disabled="true">
+	<schema name="public"/>
+</extension>
+
+<table name="my_first_point_layer" layers="0" collapse-mode="2" max-obj-count="3" z-value="0">
+	<schema name="simple_features"/>
+	<position x="400" y="260"/>
+	<column name="fid" not-null="true"
+	 identity-type="ALWAYS">
+		<type name="integer" length="0"/>
+	</column>
+	<column name="name">
+		<type name="varchar" length="200"/>
+	</column>
+	<column name="wkb_geometry">
+		<type name="geometry" length="0" spatial-type="POINT" variation="0" srid="3067"/>
+		<comment> <![CDATA[2D point geometries EPSG:3067 ]]> </comment>
+	</column>
+	<constraint name="my_first_point_layer_pk" type="pk-constr" table="simple_features.my_first_point_layer">
+		<columns names="fid" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<textbox name="Database title" layers="0" bold="true" z-value="0" width="441.156" font-size="14">
+	<position x="60" y="60"/>
+	<comment> <![CDATA[Sandbox PostGIS database for testing and fun]]> </comment>
+</textbox>
+
+<table name="my_first_line_layer" layers="0" collapse-mode="2" max-obj-count="3" z-value="0">
+	<schema name="simple_features"/>
+	<position x="780" y="260"/>
+	<column name="fid" not-null="true"
+	 identity-type="ALWAYS">
+		<type name="integer" length="0"/>
+	</column>
+	<column name="name">
+		<type name="varchar" length="200"/>
+	</column>
+	<column name="wkb_geometry">
+		<type name="geometry" length="0" spatial-type="LINESTRING" variation="0" srid="3067"/>
+		<comment> <![CDATA[2D linestring geometries EPSG:3067 ]]> </comment>
+	</column>
+	<constraint name="my_first_line_layer_pk" type="pk-constr" table="simple_features.my_first_line_layer">
+		<columns names="fid" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="my_first_polygon_layer" layers="0" collapse-mode="2" max-obj-count="3" z-value="0">
+	<schema name="simple_features"/>
+	<position x="1200" y="260"/>
+	<column name="fid" not-null="true"
+	 identity-type="ALWAYS">
+		<type name="integer" length="0"/>
+	</column>
+	<column name="name">
+		<type name="varchar" length="200"/>
+	</column>
+	<column name="wkb_geometry">
+		<type name="geometry" length="0" spatial-type="POLYGON" variation="0" srid="3067"/>
+		<comment> <![CDATA[2D polygon geometries EPSG:3067 ]]> </comment>
+	</column>
+	<constraint name="my_first_polygon_layer_pk" type="pk-constr" table="simple_features.my_first_polygon_layer">
+		<columns names="fid" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="pnt_layer_serial" layers="0" collapse-mode="2" max-obj-count="3" z-value="0">
+	<schema name="simple_features"/>
+	<comment> <![CDATA[Point layer with primary key as serial]]> </comment>
+	<position x="400" y="440"/>
+	<column name="fid" not-null="true">
+		<type name="serial" length="0"/>
+	</column>
+	<column name="name">
+		<type name="varchar" length="200"/>
+	</column>
+	<column name="wkb_geometry">
+		<type name="geometry" length="0" spatial-type="POINT" variation="0" srid="3067"/>
+	</column>
+	<constraint name="pnt_layer_pk" type="pk-constr" table="simple_features.pnt_layer_serial">
+		<columns names="fid" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+</dbmodel>
