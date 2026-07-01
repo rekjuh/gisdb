@@ -13,3 +13,6 @@ With these scripts you can create following items:
 
 Read more from [Admin Script -documentation](admin_scripts/ADMINSCRIPT.md)
 
+## Development and testing
+
+To test changes to scripts locally, run `docker compose up` to get a local test database up and running.

@@ -117,7 +117,7 @@ GRANT CONNECT ON DATABASE :tmpl_dbname TO :dbas;
 SET ROLE :dbas;
 \o NUL
 
-SET ROLE 'postgres';
+SET ROLE 'azure_pg_admin';
 SET pgaudit.log = 'NONE';
 
 -- --------------------------------------------------------------------------
