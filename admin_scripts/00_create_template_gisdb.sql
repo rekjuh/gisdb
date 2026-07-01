@@ -96,8 +96,8 @@ CREATE DATABASE :tmpl_dbname
 	OWNER :dbas
 	TEMPLATE template0
 	ENCODING UTF8
-	LC_COLLATE 'fi_FI.UTF-8'
-	LC_CTYPE 'fi_FI.UTF-8'
+	LC_COLLATE 'en_US.UTF-8'
+	LC_CTYPE 'en_US.UTF-8'
 	IS_TEMPLATE true;
 
 SET ROLE :dbas;

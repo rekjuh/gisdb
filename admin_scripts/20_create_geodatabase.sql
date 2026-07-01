@@ -15,7 +15,7 @@ SELECT rolcreatedb AS create_role FROM pg_roles WHERE rolname = current_user \gs
 \if :create_role
     \echo == Creating geodatabase from selected common gisdb template database
 \else
-    \echo 'NO CREATE DATABASE RIGHTS'
+    \echo 'NO CREATE DATABASE RIGHTS'R
 	-- List group roles which current_user can use
     SELECT
         rolname AS "Use one of these group roles"
