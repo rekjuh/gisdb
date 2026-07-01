@@ -9,7 +9,7 @@ Template GIS database will use general template to geospatial datastorage and al
 - Extensions: PosGIS, PostGIS Raster, pgCrypto, pgAudit (if installed in your server)
 - QGIS related tables to store QGIS projects, Layer styles and metata
 
-***NOTE:*** You have to have superuser privileges to run this script (extension installations).
+***NOTE:*** You have to have superuser privileges to run this script (extension installations). In case you are running a managed cloud database instance (e.g. AWS or Azure PostgreSQL) without superuser privileges, you must install these extensions manually using the platform-specific management console.
 
 These scripts are made to run in command-line enviroment with [psql](https://www.postgresql.org/docs/18/app-psql.html)
 
