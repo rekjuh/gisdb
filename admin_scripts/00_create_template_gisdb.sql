@@ -117,7 +117,8 @@ GRANT CONNECT ON DATABASE :tmpl_dbname TO :dbas;
 SET ROLE :dbas;
 \o NUL
 
-SET ROLE 'azure_pg_admin';
+-- SET ROLE 'azure_pg_admin';
+SET ROLE postgres;
 SET pgaudit.log = 'NONE';
 
 -- --------------------------------------------------------------------------
@@ -198,7 +199,7 @@ CREATE TABLE qgis.layer_styles(
 	,type varchar
 	,CONSTRAINT qgis_layer_styles_pkey PRIMARY KEY (id)
 );
-/*
+
 -- Create QGIS Layer metadata -table
 \echo ' Create QGIS Layer metadata table'
 CREATE TABLE IF NOT EXISTS qgis.qgis_layer_metadata(
@@ -220,7 +221,6 @@ CREATE TABLE IF NOT EXISTS qgis.qgis_layer_metadata(
     CONSTRAINT qgis_layer_metadata_pkey PRIMARY KEY (id),
     CONSTRAINT qgis_layer_metadata_f_table_catalog_f_table_schema_f_table__key UNIQUE (f_table_catalog, f_table_schema, f_table_name, f_geometry_column, geometry_type, crs, layer_type)
 );
-*/
 
 SET ROLE :dbas;
 

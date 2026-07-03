@@ -11,7 +11,7 @@ REM You can also execute this from command-line
 REM ---------------------------------------------------------------------------
 REM		Custom settings
 REM ---------------------------------------------------------------------------
-SET QGIS_VERSION=3.44.8
+SET QGIS_VERSION=3.44.11
 REM ---------------------------------------------------------------------------
 
 REM Check that we have QGIS executable
@@ -29,9 +29,9 @@ if exist "qgis_profiles" SET QGIS_CUSTOM_CONFIG_PATH=%~dp0qgis_profiles
 if exist "qgis_settings\qgis_global_settings.ini" SET QGIS_GLOBAL_SETTINGS_FILE=%~dp0qgis_settings\qgis_global_settings.ini
 if exist "qgis_settings\qgis_custom_ui.ini" SET QGIS_CUSTOM_UI_FILE=%~dp0qgis_settings\qgis_custom_ui.ini
 
-if exist "pgservice.conf" (
+if exist "%~dp0pgservice.conf" (
  SET PGSERVICEFILE=%~dp0pgservice.conf
- echo Using local PGSERVICEFILE: %PGSERVICEFILE%
+ echo Using local PGSERVICEFILE: %~dp0pgservice.conf
 )
 
 SET guivar=%1

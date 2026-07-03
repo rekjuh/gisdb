@@ -32,7 +32,7 @@ Execute [`20_create_geodatabase.sql`](..\admin_scripts\20_create_geodatabase.sql
 postgres@postgres@localhost=#  \i admin_scripts\20_create_geodatabase.sql
 ```
 
-### Add Sandbox from datamodel 
+### Add data model to Sandbox database
 
 Sandbox data model has created with pgModeler and database model is sandbox.dbm. 
 
@@ -43,3 +43,5 @@ Execute export of the Sandbox datamodel in psql console:
 ```console
 postgres@sandbox_test_v20251125@localhost=> \i sandbox_database/export/sandbox_v01.sql
 ```
+
+

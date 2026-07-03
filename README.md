@@ -11,7 +11,7 @@ With these scripts you can create following items:
 - Group roles for GIS database management
 - Create GIS database from template database
 
-Read more from [Admin Script -documentation](admin_scripts/ADMINSCRIPT.md)
+Read more from [Admin Script -documentation](admin_scripts/REAMD.md)
 
 ## Development and testing
 

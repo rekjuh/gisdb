@@ -131,7 +131,7 @@ For testing and learning, you can create ```sandbox``` database:
 
 1. Create Group roles for ```sandbox``` with [```10_create_group_roles.sql```](10_create_group_roles.sql)
 2. Create ```sandbox```-geodatabase with  [```20_create_geodatabase.sql```](20_create_geodatabase.sql)
-3. Implement [```sandbox -datamodel```](..\sandbox_database\sandbox.dbm) with psql :
+3. Implement [```sandbox -datamodel```](..\sandbox_database\sandbox.dbm) with pgModeler :
 
 ```psql
   postgres@sandbox_test_v20251215@localhost=# \i sandbox_database\export\sandbox_v01.sql
@@ -139,7 +139,7 @@ For testing and learning, you can create ```sandbox``` database:
 
 Use [pgModeler](https://pgmodeler.io/) to modify [```sandbox```](..\sandbox_database\sandbox.dbm)-datamodel. When modification is ready, export datamodel to SQL-file and then re-create database.
 
-More information about [Sandbox database](..\sandbox_database\SANDBOX.md).
+More information about [Sandbox database](..\sandbox_database\README.md).
 
 
 

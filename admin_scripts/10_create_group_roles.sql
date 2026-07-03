@@ -125,8 +125,8 @@ GRANT :editors TO :dbas;
 
 GRANT :admins to :dbas;
 
-GRANT :dbas TO azure_pg_admin;
-GRANT :admins to azure_pg_admin;
+--GRANT :dbas TO azure_pg_admin;
+--GRANT :admins to azure_pg_admin;
 
 \o 
 
