@@ -26,3 +26,8 @@ services:
       # New db connection takes some 300ms for some reason:
       timeout: 1s
       retries: 30
+  geoserver:
+    image: docker.osgeo.org/geoserver:2.28.3
+    ports:
+      - "8083:8080"
+

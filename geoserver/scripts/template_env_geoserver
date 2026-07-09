@@ -1,0 +1,3 @@
+# Rename this file to .env_geoserver and update information
+GEOSERVER_USER="admin"
+GEOSERVER_PASS="geoserver"
