@@ -9,8 +9,8 @@ services:
     platform: linux/amd64
     restart: always
     environment:
-      - POSTGRES_USER=azure_pg_admin
-      - POSTGRES_PASSWORD=azure_pg_admin
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
     ports:
       - 5442:5432
     volumes:

@@ -11,8 +11,9 @@ With these scripts you can create following items:
 - Group roles for GIS database management
 - Create GIS database from template database
 
-Read more from [Admin Script -documentation](admin_scripts/REAMD.md)
+Read more from [Admin Script -documentation](admin_scripts/README.md)
 
 ## Development and testing
 
-To test changes to scripts locally, run `docker compose up` to get a local test database up and running.
+For testing out any scripts on a local database, you may start up a local development database with `docker compose up -d` and then connect to it with
+`psql -h localhost -p 5442 -U postgres -d postgres`.

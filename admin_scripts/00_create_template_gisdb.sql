@@ -117,35 +117,39 @@ GRANT CONNECT ON DATABASE :tmpl_dbname TO :dbas;
 SET ROLE :dbas;
 \o NUL
 
--- SET ROLE 'azure_pg_admin';
-SET ROLE postgres;
+-- Azure does NOT contain postgres role:
+SET ROLE 'azure_pg_admin';
 SET pgaudit.log = 'NONE';
 
 -- --------------------------------------------------------------------------
 --	Install extensions
 
 -- Check superuser rights
-\o
-SELECT rolsuper AS superuser_status FROM pg_roles WHERE rolname = current_user \gset
+-- \o
+-- SELECT rolsuper AS superuser_status FROM pg_roles WHERE rolname = current_user \gset
 
-\if :superuser_status
-    \echo 'Installing extensions'
-	CREATE EXTENSION postgis;
-	CREATE EXTENSION postgis_raster;
-	CREATE EXTENSION pgcrypto;
-	CREATE EXTENSION postgres_fdw;
-	CREATE EXTENSION btree_gist;
+-- On Azure, the default user (not superuser) can install extensions:
 
-	SELECT exists(select name from pg_available_extensions where name = 'pg_audit') AS install_pgaudit; \gset
+-- \if :superuser_status
+\echo 'Installing extensions'
+CREATE EXTENSION postgis;
+CREATE EXTENSION postgis_raster;
+CREATE EXTENSION pgcrypto;
+CREATE EXTENSION postgres_fdw;
+CREATE EXTENSION btree_gist;
 
-	\if :install_pgaudit
-		CREATE EXTENSION pgaudit;
-	\endif
-\else
-    \echo 'You need superuser rights to install extensions'
+SELECT exists(select name from pg_available_extensions where name = 'pg_audit') AS install_pgaudit; \gset
+
+\if :install_pgaudit
+	CREATE EXTENSION pgaudit;
 \endif
+-- \else
+--     \echo 'You need superuser rights to install extensions'
+-- \endif
 
 \echo =  Revoke all access from public
+
+-- TODO: can this be done without postgres role??
 
 REVOKE ALL ON DATABASE :tmpl_dbname FROM PUBLIC;
 
