@@ -5,6 +5,7 @@ volumes:
 
 services:
   postgis:
+    # Should be have possibility to run also version 17 and others?
     image: postgis/postgis:18-3.6
     platform: linux/amd64
     restart: always
