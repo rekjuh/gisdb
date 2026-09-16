@@ -3,9 +3,9 @@
 CAUTION: Do not modify this file unless you know what you are doing.
  Unexpected results may occur if the code is changed deliberately.
 -->
-<dbmodel pgmodeler-ver="1.2.1" use-changelog="false" max-obj-count="4"
+<dbmodel pgmodeler-ver="1.2.1" use-changelog="false" max-obj-count="8"
 	 gen-disabled-objs-code="false" show-sys-schemas-rects="true"
-	 last-position="0,0" last-zoom="0.8" scene-rect="0,0,1591.03,1076.8"
+	 last-position="75,58" last-zoom="0.8" scene-rect="-188,0,2817.18,1280.12"
 	 default-schema="public" default-owner="postgres"
 	 layers="Default layer"
 	 active-layers="0"
@@ -60,6 +60,17 @@ ALTER DEFAULT PRIVILEGES IN SCHEMA simple_features
 ALTER DEFAULT PRIVILEGES IN SCHEMA simple_features 
 	GRANT SELECT, INSERT, UPDATE, DELETE, TRUNCATE ON TABLES 
 	TO sandbox_admins;]]> </appended-sql>
+</schema>
+
+<schema name="metadata" layers="0" rect-visible="true" fill-color="#e1e1e1" name-color="#00007f">
+</schema>
+
+<schema name="basedata" layers="0" rect-visible="true" fill-color="#e1e1e1" name-color="#00557f">
+	<comment> <![CDATA[Basic GIS data]]> </comment>
+</schema>
+
+<schema name="temporal" layers="0" rect-visible="true" fill-color="#e1e1e1" name-color="#00aa00">
+	<comment> <![CDATA[Sample of temporal tables]]> </comment>
 </schema>
 
 <extension name="postgis" sql-disabled="true">
@@ -145,5 +156,241 @@ ALTER DEFAULT PRIVILEGES IN SCHEMA simple_features
 		<columns names="fid" ref-type="src-columns"/>
 	</constraint>
 </table>
+
+<table name="point_features" layers="0" collapse-mode="2" max-obj-count="3" z-value="0">
+	<schema name="basedata"/>
+	<position x="800" y="680"/>
+	<column name="identifier" not-null="true" default-value="gen_random_uuid()">
+		<type name="uuid" length="0"/>
+	</column>
+	<column name="name">
+		<type name="text" length="0"/>
+	</column>
+	<column name="wkb_point">
+		<type name="geometry" length="0" spatial-type="POINT" variation="0" srid="4326"/>
+	</column>
+	<constraint name="point_features_pk" type="pk-constr" table="basedata.point_features">
+		<columns names="identifier" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="history_logs" layers="0" collapse-mode="2" max-obj-count="10" z-value="0">
+	<schema name="metadata"/>
+	<position x="1180" y="640"/>
+	<column name="log_id" not-null="true"
+	 identity-type="ALWAYS">
+		<type name="bigint" length="0"/>
+	</column>
+	<column name="logtime">
+		<type name="timestamptz" length="0"/>
+	</column>
+	<column name="feature_identifier">
+		<type name="uuid" length="0"/>
+	</column>
+	<column name="action">
+		<type name="text" length="0"/>
+	</column>
+	<column name="username">
+		<type name="text" length="0"/>
+	</column>
+	<column name="schema_name">
+		<type name="text" length="0"/>
+	</column>
+	<column name="table_name">
+		<type name="text" length="0"/>
+	</column>
+	<column name="old_data">
+		<type name="jsonb" length="0"/>
+	</column>
+	<column name="new_data">
+		<type name="jsonb" length="0"/>
+	</column>
+	<constraint name="history_logs_pk" type="pk-constr" table="metadata.history_logs">
+		<columns names="log_id" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<function name="fn_log_history"
+		window-func="false"
+		returns-setof="false"
+		behavior-type="CALLED ON NULL INPUT"
+		function-type="VOLATILE"
+		security-type="SECURITY INVOKER"
+		parallel-type="PARALLEL UNSAFE"
+		execution-cost="1"
+		row-amount="0">
+	<schema name="metadata"/>
+	<language name="plpgsql"/>
+	<return-type>
+	<type name="trigger" length="0"/>
+	</return-type>
+	<definition> <![CDATA[
+BEGIN
+    IF (TG_OP = 'INSERT') THEN
+        INSERT INTO metadata.history_logs(logtime, feature_identifier, action, username, schema_name, table_name, new_data)
+        VALUES (now(), NEW.identifier, 'INSERT', session_user, TG_TABLE_SCHEMA, TG_TABLE_NAME, to_jsonb(NEW) );
+        RETURN NEW;
+
+    ELSIF (TG_OP = 'UPDATE') THEN
+        -- Soft-delete (deleted_at from NULL -> now())
+       /*
+        IF (OLD.deleted_at IS NULL AND NEW.deleted_at IS NOT NULL) THEN
+            INSERT INTO metadata.history_logs(logtime, feature_identifier, action, username, schema_name, table_name, old_data, new_data)
+            VALUES (now(), OLD.identifier, 'SOFT-DELETE', session_user, TG_TABLE_SCHEMA, TG_TABLE_NAME, to_jsonb(OLD), to_jsonb(NEW));
+        ELSE */
+        --  Regular update
+        INSERT INTO metadata.history_logs(logtime, feature_identifier, action, username, schema_name, table_name, old_data, new_data)
+            VALUES (now(), OLD.identifier, 'UPDATE', session_user, TG_TABLE_SCHEMA, TG_TABLE_NAME, to_jsonb(OLD), to_jsonb(NEW));
+        
+   --END IF;
+
+        RETURN NEW;
+
+    ELSIF (TG_OP = 'DELETE') THEN
+        -- If admin will hard delete object
+	INSERT INTO metadata.history_logs(logtime, feature_identifier, action, username, schema_name, table_name, old_data)
+	VALUES (now(), OLD.identifier, 'HARD-DELETE', session_user, TG_TABLE_SCHEMA, TG_TABLE_NAME, to_jsonb(OLD));        
+
+        RETURN OLD;
+
+    END IF;
+RETURN null;
+END;]]> </definition>
+</function>
+
+<trigger name="trg_log_history" firing-type="AFTER" per-line="true" constraint="false"
+	 ins-event="true" del-event="true" upd-event="true" trunc-event="false"
+	 table="basedata.point_features">
+		<comment> <![CDATA[Log all INSERT, DELETE and UPDATE to metadata.history_logs]]> </comment>
+		<function signature="metadata.fn_log_history()"/>
+</trigger>
+
+<table name="_base_simple_point" layers="0" collapse-mode="2" max-obj-count="7" z-value="0">
+	<schema name="temporal"/>
+	<comment> <![CDATA[This is base table for temporal points]]> </comment>
+	<position x="540" y="960"/>
+	<column name="fid" not-null="true"
+	 identity-type="ALWAYS">
+		<type name="bigint" length="0"/>
+	</column>
+	<column name="identifier" not-null="true" default-value="gen_random_uuid()">
+		<type name="uuid" length="0"/>
+	</column>
+	<column name="name">
+		<type name="text" length="0"/>
+	</column>
+	<column name="wkb_point">
+		<type name="geometry" length="0" spatial-type="POINT" variation="0" srid="4326"/>
+	</column>
+	<column name="valid_from" not-null="true" default-value="now()">
+		<type name="timestamptz" length="0"/>
+	</column>
+	<column name="valid_to">
+		<type name="timestamptz" length="0"/>
+	</column>
+	<constraint name="_base_temporal_points_pk" type="pk-constr" table="temporal._base_simple_point">
+		<columns names="identifier,fid" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<view name="simple_point" layers="0" collapse-mode="2" max-obj-count="1" z-value="0">
+	<schema name="temporal"/>
+	<position x="100" y="1020"/>
+	<definition> <![CDATA[SELECT identifier, name, wkb_point 
+FROM temporal._base_simple_point
+WHERE valid_to IS NULL]]> </definition>
+</view>
+
+<function name="fn_gis_temporal"
+		window-func="false"
+		returns-setof="false"
+		behavior-type="CALLED ON NULL INPUT"
+		function-type="VOLATILE"
+		security-type="SECURITY INVOKER"
+		parallel-type="PARALLEL UNSAFE"
+		execution-cost="1"
+		row-amount="0">
+	<schema name="temporal"/>
+	<language name="plpgsql"/>
+	<return-type>
+	<type name="trigger" length="0"/>
+	</return-type>
+	<definition> <![CDATA[DECLARE
+    v_pk_col text := TG_ARGV[0]; 
+    v_schema text := TG_TABLE_SCHEMA; 
+    v_table text := '_base_' || TG_TABLE_NAME;
+    
+    v_pk_val text;               
+    v_col_names text;
+    v_new_vals text;
+    v_sql text;
+
+BEGIN
+    -- 1. Haetaan näkymän sarakkeet, mutta JÄTETÄÄN POIS temporal-sarakkeet
+    IF TG_OP = 'INSERT' OR TG_OP = 'UPDATE' THEN
+        SELECT 
+            -- Luo tekstin: "sarakkeen_nimi", "toinen_sarake"
+            string_agg(quote_ident(attname), ', ' ORDER BY attnum),
+            -- Luo tekstin: $1."sarakkeen_nimi", $1."toinen_sarake" (poimii datan NEW-riviltä)
+            string_agg('$1.' || quote_ident(attname), ', ' ORDER BY attnum)
+        INTO 
+            v_col_names, 
+            v_new_vals
+        FROM pg_attribute
+        WHERE attrelid = TG_RELID 
+          AND attnum > 0 
+          AND NOT attisdropped
+          -- Tässä estetään tuplien syntyminen:
+          AND attname NOT IN ('valid_from', 'valid_to', 'fid'); 
+    END IF;
+
+    -- 2. Kaivetaan ID
+    IF TG_OP = 'UPDATE' OR TG_OP = 'DELETE' THEN
+        v_pk_val := to_jsonb(OLD) ->> v_pk_col;
+    END IF;
+
+    -- 3. UUDEN LISÄYS
+    IF TG_OP = 'INSERT' THEN
+        v_sql := format(
+            'INSERT INTO %I.%I (%s, valid_from, valid_to) SELECT %s, NOW(), NULL', 
+            v_schema, v_table, v_col_names, v_new_vals
+        );
+        EXECUTE v_sql USING NEW;
+        RETURN NEW;
+
+    -- 4. PÄIVITYS
+    ELSIF TG_OP = 'UPDATE' THEN
+        v_sql := format(
+            'UPDATE %I.%I SET valid_to = NOW() WHERE %I = %L AND valid_to IS NULL',
+            v_schema, v_table, v_pk_col, v_pk_val
+        );
+        EXECUTE v_sql;
+
+        v_sql := format(
+            'INSERT INTO %I.%I (%s, valid_from, valid_to) SELECT %s, NOW(), NULL', 
+            v_schema, v_table, v_col_names, v_new_vals
+        );
+        EXECUTE v_sql USING NEW;
+        RETURN NEW;
+
+    -- 5. POISTO
+    ELSIF TG_OP = 'DELETE' THEN
+        v_sql := format(
+            'UPDATE %I.%I SET valid_to = NOW() WHERE %I = %L AND valid_to IS NULL',
+            v_schema, v_table, v_pk_col, v_pk_val
+        );
+        EXECUTE v_sql;
+        RETURN OLD;
+    END IF;
+
+    RETURN NULL;
+END;]]> </definition>
+</function>
+
+<trigger name="trg_instead_of_simple_point" firing-type="INSTEAD OF" per-line="true" constraint="false"
+	 ins-event="true" del-event="true" upd-event="true" trunc-event="false" arguments="identifier"
+	 table="temporal.simple_point">
+		<function signature="temporal.fn_gis_temporal()"/>
+</trigger>
 
 </dbmodel>

@@ -117,8 +117,10 @@ GRANT CONNECT ON DATABASE :tmpl_dbname TO :dbas;
 SET ROLE :dbas;
 \o NUL
 
+-- TODO Add logic to select enviroment local docker / azure 
 -- Azure does NOT contain postgres role:
-SET ROLE 'azure_pg_admin';
+-- SET ROLE 'azure_pg_admin';
+SET ROLE 'postgres';
 SET pgaudit.log = 'NONE';
 
 -- --------------------------------------------------------------------------
