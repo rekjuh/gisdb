@@ -1,6 +1,5 @@
 # .gitignore file for QGIS dev environment
 
 pgservice.conf
-qgis_profiles/*
 
 # End of QGIS dev environment .gitignore

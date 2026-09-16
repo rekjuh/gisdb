@@ -1,0 +1,6 @@
+# .gitignore file for QGIS profiles directory
+
+profiles/*
+profiles.ini
+
+# End of .gitignore file for QGIS profiles directory

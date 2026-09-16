@@ -8,6 +8,8 @@ REM converting UNC path to drive letter if needed
 
 REM You can also execute this from command-line
 
+setlocal EnableDelayedExpansion
+
 REM ---------------------------------------------------------------------------
 REM		Custom settings
 REM ---------------------------------------------------------------------------
@@ -29,9 +31,9 @@ if exist "qgis_profiles" SET QGIS_CUSTOM_CONFIG_PATH=%~dp0qgis_profiles
 if exist "qgis_settings\qgis_global_settings.ini" SET QGIS_GLOBAL_SETTINGS_FILE=%~dp0qgis_settings\qgis_global_settings.ini
 if exist "qgis_settings\qgis_custom_ui.ini" SET QGIS_CUSTOM_UI_FILE=%~dp0qgis_settings\qgis_custom_ui.ini
 
-if exist "%~dp0pgservice.conf" (
+if exist "pgservice.conf" (
  SET PGSERVICEFILE=%~dp0pgservice.conf
- echo Using local PGSERVICEFILE: %~dp0pgservice.conf
+ echo Using local PGSERVICEFILE: !PGSERVICEFILE!
 )
 
 SET guivar=%1
