@@ -1,0 +1,311 @@
+; the next section is mandatory
+[general]
+name=Mergin
+qgisMinimumVersion=3.40
+qgisMaximumVersion=4.99
+description=Handle Mergin Maps projects
+version=2026.5.1
+author=Lutra Consulting
+email=info@merginmaps.com
+about=Mergin Maps is a repository for storing and tracking changes to QGIS projects/data and has its mobile app for field geo-surveys. With this plugin, users can upload and sync their data to Mergin Maps service.
+; end of mandatory metadata
+
+; start of optional metadata
+changelog=2026.5.1
+  - Fix truststore import
+  <p>2026.5.0
+  - Update minimum QGIS version to 3.40
+  - Fix issue with SSL certificates 
+  <p>2026.4.3
+  - Indicate opened project in browser
+  - Fix size check for files to upload
+  <p>2026.4.2
+  - Fixed project syncing from the browser
+  - Fixed filtering for relations with multiple values
+  <p>2026.4.1
+  - Fixed issues in the changes viewer
+  - Fixed an exception when syncing to a different server
+  <p>2026.4.0
+  - Integrated V2 pull mechanism
+  <p>2026.3.0
+  - Added support to create filters
+  - Enhanced relation warning messages
+  - Fixed validation messages when layer is in subfolder
+  - Fixed error when project is not configured
+  <p>2026.2.1
+  - Fix photo widget validations
+  <p>2026.2.0
+  - Export and import of QGIS authorization configurations for external layers
+  - Fix issues when upgrading the plugin on Windows
+  - Fix directory validation for project creation
+  <p>2026.1.2
+  - Fix for inability to sync removed geopackages
+  <p>2026.1.1
+  - Fix support for macbooks with M chips (arm64)
+  <p>2026.1.0
+  - Integration of improved push mechanism
+  - Added restart of sync process
+  - Preventing trailing whitespace in project creation and photo name path
+  - Fix reset changes fail on Windows
+  - Fix relation key warning messages
+  - Fix problems with QGIS 4.0 compatibility
+  <p>2025.4.0
+  - Fix synchronisation issues when using OneDrive
+  - Show downloaded projects first in the browser
+  - Dropped support for out of date server version (< 2023)
+  - Improved link visibility on dark background
+  - Fixed deleting project locally on Windows
+  - Fixed cleanup of obsolete files remain in .mergin folder
+  - Fixed error when syncing newly created project
+  - Fixed local paths handling
+  - Fix handling of https prefix in custom mergin maps server url 
+  - Added better unhandled exception dialog during project sync
+  - Improved validations on forbidden characters, online basemaps and SVG rules
+  - Improved photo name preview 
+  <p>2025.3.4
+  - Introducing photo sketching for public use
+  - Added support for QGIS 4+
+  <p>2025.3.3
+  - Fixed issue with the access token structure
+  <p>2025.3.2
+  - Added the ability to control layer sort order in the mobile app
+  - Enabled sending diagnostic logs to the configured server
+  - Introduced a photo sketching flag in experimental mode
+  - Added database port number to the DB Sync configuration wizard
+  <p>2025.3.1
+  - Introducing map sketching for public use
+  <p>2025.3
+  - Added SSO support for SAML/OIDC connections
+  - Various bug fixes
+  <p>2025.2
+  - Fixed issue with project home path causing problems in the mobile app.
+  - Added a user-friendly display expression for the tracking layer.
+  - Fixed visualization of changes not working in the history viewer when the GeoPackage was in a subfolder.
+  - Improved Mergin Maps QGIS expressions (added mergin_user_email variable, fixed mergin_project_* variables being unavailable)
+  - Make the plugin compatible with Qt6
+  <p>2025.1.1
+  - Fixed the plugin on older QGIS version (< 3.34)
+  <p>2025.1
+  - Added a new history viewer window
+  <p>2024.2.1
+  - Improve error messages when creating and syncing projects  (#601)
+  - Sort the workspaces list in the new project wizard (#602)
+  - Strip trailing whitespace from project name in the new project wizard (#577)
+  - Cleanup reference to the old Mergin Map mobile app name in the interface (#624)
+  - Bump version of python-api-client to 0.9.3 and geodiff to 2.0.4 (#620)
+  <p>2024.2
+  - handling of editor permission (#583)
+  <p>2024.1
+  - fix plugin update on windows (#504))
+  - reset local changes (#281)
+  - add option to submit logs when download fails
+  - do not show local mbtiles as not available offline (#540)
+  - new metadata getters
+  - geodiff 2.0.2 and client 0.9
+  <p>2023.4.1
+  - Fix validation "check_svgs_embedded" for layers without renderers (#530)
+  <p>2023.4
+  - Update branding 
+  - Download vector tiles algorithm
+  - Add wizard to configure db-sync
+  - Validation to check that SVGs are embedded in the project 
+  - Ask user to type project name to confirm its removal from the server
+  <p>2023.3
+  - Add an option to enable position tracking (#489)
+  <p>2023.2.1
+  - fix error when listing geometry-less layers with attachments (#505)
+  <p>2023.2
+  - use Lutra's vector tile layer for basemap (#497)
+  - expression-based names for photos (#501)
+  - check if iface is valid on plugin load (#495)
+  - remove trailing slash from the mergin server URL (#496)
+  <p>2023.1
+  - Add support for workspaces (#466)
+  - Better validation of project names (#474)
+  - Add window to explore public projects (#469)
+  - Fix crash during synchronization with geotagged photos (#461)
+  <p>2022.6
+  - Add validation for required datum shift grids (#444)
+  - Package required datum shift grids (#184)
+  - Better support for dark themes (#434)
+  - Add support for packaging of local MBTiles (#452)
+  - Fix packaging of rasters (#441)
+  - Add warning about unsaved changes in the project before showing local changes (#432)
+  <p>2022.5
+  - Add project setting to control snapping in the mobile app
+  - Add validations for snapping configuration in Mergin Maps project
+  - Fix Processing tools to visualize local changes and changes between two versions of the layer
+  <p>2022.4.1
+  - Fix plugin to work with minimum QGIS version 3.16
+  <p>2022.4
+  - Addition of Processing tools to visualize local changes and changes between two versions of the layer
+  - Addition of local changes viewer
+  - More validations for attachment widget configuration
+  - Check both old and new server URLs before sync (#409)
+  - Fix Python error when cancelling sync immediately after it started (#405)
+  - Update public server URL following rebranding changes (#417)
+  <p>2022.3.2
+  - Add project setting to control photo quality in the mobile app (#383)
+  - Disable primary keys validation for non-GPKG layers (#401)
+  - Fix packaging of raster auxilary files with georeferencing information (#371)
+  - Update of icon pack and renaming Mergin to Mergin Maps
+  <p>2022.3.1
+  - Fix relation validation (#393)
+  <p>2022.3
+  - Updated branding to Mergin Maps
+  - Added validation of relations (#380)
+  - Better validation of field names (#379)
+  - Improved handling of network proxies (#373)
+  <p>2022.2.1
+  - Fixed an issue with status/sync when a new GeoPackage got added (#376)
+  <p>2022.2
+  - Project status dialog always shows up when syncing (#288)
+  - Improvements to how validation warnings are displayed when syncing
+  - New validation rules to ensure the project is configured correctly (#254, #289, #356)
+  - Fixes to reporting tool (#362, #365)
+  <p>2022.1
+  - Addition of reporting tool (#337)
+  - Fixed sync issues on Windows after schema change (#327)
+  - Fixed misbehaving sync due to trailing slash in custom mergin URL (#285)
+  - Fixed a crash when using debug version of QGIS (#336)
+  <p>2021.5.1
+  - Configuration of selective sync
+  <p>2021.4.3
+  - Fix packaging bugs (#273, #277)
+  - Fix sending diagnostics logs
+  - Add attention banner notification
+  - Fix handling of null/not-null values of datetime type (geodiff#154)
+  - Fix handling of rebase when editors change the same value (geodiff#152)
+  - Updated Mergin client to 0.6.6 and geodiff 1.0.5
+  <p>2021.4.2
+  - Fixed creation of conflict files on rebase in some cases (geodiff#146)
+  - Updated Mergin client to 0.6.4 and geodiff 1.0.3
+  <p>2021.4.1
+  - Fixed sync error with failing basefile update (#279, #280)
+  - Updated Mergin client to 0.6.3 and geodiff 1.0.2
+  <p>2021.4
+  - Fixed missing map canvas refresh after sync (#267)
+  - Fixed sync issue when database schema changes and doing a rebase (#246)
+  - Fixed possible crashes and data corruption on macOS (#225)
+  - Fixed a warning in QGIS console (#264)
+  - Fixed sync issue that misses changes in GeoPackage in some cases (mergin-py-client#96)
+  - Fixed possible corruption of the internal ".mergin" directory (mergin-py-client#30)
+  - Updated Mergin client to 0.6.2 and geodiff 1.0.1
+  <p>2021.3
+  - Projects that are available locally can be expanded in browser to see files (#28)
+  - Only reload QGIS project after sync when it is active and it was modified (#236)
+  - Make sure that projects packaged in the wizard use relative paths (#239)
+  - Fixed issue when a file was deleted both locally and on the server (#232)
+  - Fixed packaging of layers that already contain "fid" column (#213)
+  - Fixed support for proxy servers (#123)
+  - Fixed broken sync after it was canceled (#231)
+  - Fixed python error when testing Mergin connection and unstable internet (#229)
+  - Fixed non-spatial layers not being visible in packaging wizard (#208)
+  - Fixed error with sync when Mergin server URL has changed (#221)
+  - Fixed misleading "Unable to detect changes" in status dialog (#181)
+  - Diagnostic logs include global log for dealing with auth issues (#249)
+  - Increased minimum QGIS version to 3.10 (#230)
+  - Updated Mergin client to 0.5.12 and geodiff 0.8.8
+  <p>2021.2.1
+  - Fixed issue with Unicode output filenames in listChanges() and listChangesSummary() (#227)
+  - Improved error messages in diagnostic logs
+  - Updated Mergin client to 0.5.11 and geodiff 0.8.8
+  <p>2021.2
+  - List projects using pagination - after 50 projects it offers to load more (#218)
+  - Fixed sync error that have happened when moving to version >= 10 (#219)
+  - Improved diagnostic logging of errors
+  - Updated Mergin client to 0.5.10 and geodiff 0.8.6
+  <p>2021.1.1
+  - Fixed restart required after login (#206)
+  <p>2021.1
+  - Added a toolbar for Mergin plugin (#77)
+  - Added support for validation of projects (#72)
+  - Added support for packaging of QGIS projects prior to upload to Mergin (#9, #55)
+  - Added a new wizard to create Mergin projects (optionally with packaging)
+  - Updated Mergin client to 0.5.8 and geodiff 0.8.6
+  <p>2020.6.1
+  - Fixed project upload when creating a project within an organisation (#187)
+  - Fixed quota check when uploading to an organisation (mergin-py-client#65)
+  - Updated Mergin client to 0.5.7 and geodiff 0.8.6
+  <p>2020.6
+  - More user friendly project status reports (#172)
+  - Projects can be created on behalf of an organisation (#169)
+  - Cloning of projects (#85)
+  - Validation of Mergin URL to avoid misconfiguration (#171)
+  - Updated Mergin client to 0.5.6 and geodiff 0.8.6
+  <p>2020.5.4
+  - Updated Mergin client to 0.5.5 and geodiff 0.8.6
+  - Fixed issue with transferred size and total size not matching (#142)
+  - Fixed issue with non-ascii characters (#137)
+  - Fixed issue with single quote in path (geodiff#74)
+  - Fixed issue with rebase with unrecognized triggers (geodiff#75)
+  <p>2020.5.3
+  - Updated Mergin client to 0.5.4 - fixing an issue with renamed files
+  - Added sending of diagnostic logs upon client's request
+  <p>2020.5.2
+  - Fixed compatibility issue with QGIS < 3.12 (#163)
+  <p>2020.5.1
+  - Upgraded Mergin client to 0.5.3 and geodiff to 0.8.5 (#160, #150)
+  - Added QGIS variables @mergin_url, @mergin_username, @mergin_project_name, @mergin_project_owner, @mergin_project_full_name, @mergin_project_version (#155)
+  - Fixed crash on plugin load if user used auth manager with a master password (#152)
+  - Sync will not write any changes if the user has read-only permissions (#151)
+  - Added QGIS version and mergin-py-client version in the client logs and user-agent info (#150)
+  <p>2020.5.0
+  - Upgraded Mergin client to 0.5.0 and geodiff to 0.8.4 - fixing various sync issues
+  - Fix Python error when reporting sync issue (#144)
+  - Fixed an error when closing QGIS (#126)
+  - Better handling of unexpected exceptions (#132)
+  <p>2020.4.1
+  - fixed plugin load issue (#133)
+  <p>2020.4.0
+  - async support
+  - resolve issue with the first push
+  <p>2020.3.1
+  - Second fix for the sync issue
+  <p>2020.3
+  - Resolve issue with sync in QGIS 3.10
+  <p>2020.2
+  - Improve download/upload
+  - Support for change of schema
+  - Better error reporting
+  - Bug fixes
+  <p>2020.1
+  - Better display of changelog
+  - Several bug fixes
+  <p>2019.6
+  - View log of changes to layer through Geodiff
+  <p>2019.5
+  - Geodiff integration
+  - Better UI/UX for authentication
+  - Bug fixes
+  <p>2019.4.1
+  - Multi-threaded download and upload
+  - Possibility to create empty project on the Mergin server from within the plugin
+  - Possibility to download empty projects
+  - Better dialogue windows for configuration and project creation
+  <p>2019.4:
+  - Added option to remove project from server
+  - Fixed create project function (valid QGIS project, appears as local)
+  - Added groups for Mergin projects (with filters)
+  - Changed auth using login endpoint or bearer token
+  - Fixed sync issues on Windows
+  <p>2019.3:
+  - Initial release
+
+; tags are in comma separated value format, spaces are allowed
+tags=cloud, mobile, field, gps, synchronization, android, offline, gnss, fieldwork, sensors, tablet, simple, ios, collaborative, smartphone, data, merginmaps, versioning, synchronization, backup
+
+homepage=https://merginmaps.com/
+tracker=https://github.com/MerginMaps/qgis-mergin-plugin/issues
+repository=https://github.com/MerginMaps/qgis-mergin-plugin
+icon=images/MM_symbol_COLOR_TRANSPARENT.png
+
+hasProcessingProvider=yes
+
+; experimental flag
+experimental=False
+
+; deprecated flag (applies to the whole plugin and not only to the uploaded version)
+deprecated=False
+
+supportsQt6=yes

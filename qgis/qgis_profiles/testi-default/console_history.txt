@@ -1,0 +1,72 @@
+import json
+import os
+
+# Muuta tämä oman tiedostosi poluksi
+input_path = r""C:/Users/joona/Downloads/hoiva-asumisen_kohteet_v2026-04-08.gl.json""
+output_path = r""C:/Users/joona/Downloads/new-hoiva-asumisen_kohteet_v2026-04-08.gl.json""
+
+with open(input_path, "r", encoding="utf-8") as f:
+    data = json.load(f)
+
+# Poimitaan kaikki featuret rakenteesta datasets → data → allData
+features = []
+for row in data["datasets"][0]["data"]["allData"]:
+    feature = row[0]  # ensimmäinen elementti on aina GeoJSON-feature
+    features.append(feature)
+
+geojson = {
+    "type": "FeatureCollection",
+    "features": features
+}
+
+with open(output_path, "w", encoding="utf-8") as f:
+    json.dump(geojson, f, ensure_ascii=False, indent=2)
+
+print("Valmis:", output_path)
+import json
+import os
+
+# Muuta tämä oman tiedostosi poluksi
+input_path = r"C:/Users/joona/Downloads/hoiva-asumisen_kohteet_v2026-04-08.gl.json"
+output_path = r"C:/Users/joona/Downloads/new-hoiva-asumisen_kohteet_v2026-04-08.gl.json"
+
+with open(input_path, "r", encoding="utf-8") as f:
+    data = json.load(f)
+
+# Poimitaan kaikki featuret rakenteesta datasets → data → allData
+features = []
+for row in data["datasets"][0]["data"]["allData"]:
+    feature = row[0]  # ensimmäinen elementti on aina GeoJSON-feature
+    features.append(feature)
+
+geojson = {
+    "type": "FeatureCollection",
+    "features": features
+}
+
+with open(output_path, "w", encoding="utf-8") as f:
+    json.dump(geojson, f, ensure_ascii=False, indent=2)
+
+print("Valmis:", output_path)
+import json
+
+input_path = r"C:/Users/joona/Downloads/hoiva-asumisen_kohteet_v2026-04-08.gl.json"
+output_path = r"C:/Users/joona/Downloads/new-hoiva-asumisen_kohteet_v2026-04-08.geojson"
+
+with open(input_path, "r", encoding="utf-8") as f:
+    data = json.load(f)
+
+features = []
+for row in data["datasets"][0]["data"]["allData"]:
+    feature = row[0]
+    features.append(feature)
+
+geojson = {
+    "type": "FeatureCollection",
+    "features": features
+}
+
+with open(output_path, "w", encoding="utf-8") as f:
+    json.dump(geojson, f, ensure_ascii=False, indent=2)
+
+print("Valmis:", output_path)

@@ -1,0 +1,46 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Connector for ODK
+qgisMinimumVersion=3.0
+description= Connect to ODK Central, fetch submissions, and visualize field data on QGIS maps. Supports filtering, spatial analysis, and data export.
+version=1.9
+author=Felix Mutua
+email=mutua@ags.co.ke
+
+about= The plugin connects to ODK Central, retrieves form submissions, extracts spatial data (e.g., GPS coordinates, points, or geometries), and converts them into a valid vector layer. The resulting GeoJSON can be used for mapping, analysis, or integration into GIS platforms. Additionally, it allows for splitting layers based on select attribute
+
+tracker=https://github.com/fnmutua/connector-for-ODK
+repository=https://github.com/fnmutua/ODK-Connect
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=no
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python
+
+homepage=https://github.com/fnmutua/connector-for-ODK
+category=Web
+icon=download.svg
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+# If the plugin can run on QGIS Server.
+server=False
+[license]
+license=GPL-3.0
+requirements=requirements.txt

@@ -1,0 +1,651 @@
+2026-03-16 13:04:40,790 Going to log in user info@gispo.fi
+2026-03-16 13:04:41,337 User Gispo successfully logged in.
+2026-03-16 13:04:41,337 The auth token expires at 2026-03-16 23:04:39.550802+00:00
+2026-03-16 13:04:42,743 Going to log in user info@gispo.fi
+2026-03-16 13:04:43,385 User Gispo successfully logged in.
+2026-03-16 13:04:43,385 The auth token expires at 2026-03-16 23:04:41.524227+00:00
+2026-03-18 12:45:39,267 Token has expired: expire=2026-03-16 23:04:41.524227+00:00 now=2026-03-18 10:45:39.267953+00:00 delta=-128457.7s
+2026-03-18 12:45:39,267 Token has expired - refreshing...
+2026-03-18 12:45:39,272 Going to log in user info@gispo.fi
+2026-03-18 12:45:39,839 User Gispo successfully logged in.
+2026-03-18 12:45:39,839 The auth token expires at 2026-03-18 22:45:39.608413+00:00
+2026-03-18 13:13:27,445 Token has expired: expire=2026-03-16 23:04:41.524227+00:00 now=2026-03-18 11:13:27.445641+00:00 delta=-130125.9s
+2026-03-18 13:13:27,445 Token has expired - refreshing...
+2026-03-18 13:13:27,445 Going to log in user info@gispo.fi
+2026-03-18 13:13:28,062 User Gispo successfully logged in.
+2026-03-18 13:13:28,062 The auth token expires at 2026-03-18 23:13:27.882561+00:00
+2026-03-18 13:21:11,468 Token has expired: expire=2026-03-16 23:04:41.524227+00:00 now=2026-03-18 11:21:11.468157+00:00 delta=-130589.9s
+2026-03-18 13:21:11,468 Token has expired - refreshing...
+2026-03-18 13:21:11,469 Going to log in user info@gispo.fi
+2026-03-18 13:21:12,035 User Gispo successfully logged in.
+2026-03-18 13:21:12,035 The auth token expires at 2026-03-18 23:21:11.870775+00:00
+2026-03-18 13:51:51,828 Token has expired: expire=2026-03-16 23:04:41.524227+00:00 now=2026-03-18 11:51:51.828839+00:00 delta=-132430.3s
+2026-03-18 13:51:51,828 Token has expired - refreshing...
+2026-03-18 13:51:51,829 Going to log in user info@gispo.fi
+2026-03-18 13:51:52,424 User Gispo successfully logged in.
+2026-03-18 13:51:52,425 The auth token expires at 2026-03-18 23:51:52.295132+00:00
+2026-03-24 14:19:14,310 Going to log in user info@gispo.fi
+2026-03-24 14:19:14,854 User Gispo successfully logged in.
+2026-03-24 14:19:14,854 The auth token expires at 2026-03-25 00:19:15.011946+00:00
+2026-03-24 14:19:16,067 Going to log in user info@gispo.fi
+2026-03-24 14:19:16,541 User Gispo successfully logged in.
+2026-03-24 14:19:16,541 The auth token expires at 2026-03-25 00:19:16.710927+00:00
+2026-03-26 08:49:24,152 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-03-26 06:49:24.152048+00:00 delta=-109807.4s
+2026-03-26 08:49:24,152 Token has expired - refreshing...
+2026-03-26 08:49:24,152 Going to log in user info@gispo.fi
+2026-03-26 08:49:24,715 User Gispo successfully logged in.
+2026-03-26 08:49:24,716 The auth token expires at 2026-03-26 18:49:24.667005+00:00
+2026-03-31 13:55:43,435 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-03-31 10:55:43.423848+00:00 delta=-556586.7s
+2026-03-31 13:55:43,442 Token has expired - refreshing...
+2026-03-31 13:55:43,442 Going to log in user info@gispo.fi
+2026-03-31 13:55:44,103 User Gispo successfully logged in.
+2026-03-31 13:55:44,103 The auth token expires at 2026-03-31 22:55:44.146538+00:00
+2026-04-08 09:44:16,316 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-08 06:44:16.316331+00:00 delta=-1232699.6s
+2026-04-08 09:44:16,330 Token has expired - refreshing...
+2026-04-08 09:44:16,330 Going to log in user info@gispo.fi
+2026-04-08 09:44:16,879 User Gispo successfully logged in.
+2026-04-08 09:44:16,879 The auth token expires at 2026-04-08 18:44:16.332557+00:00
+2026-04-08 13:56:21,442 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-08 10:56:21.442100+00:00 delta=-1247824.7s
+2026-04-08 13:56:21,443 Token has expired - refreshing...
+2026-04-08 13:56:21,443 Going to log in user info@gispo.fi
+2026-04-08 13:56:22,058 User Gispo successfully logged in.
+2026-04-08 13:56:22,058 The auth token expires at 2026-04-08 22:56:21.462836+00:00
+2026-04-08 13:56:40,739 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-08 10:56:40.739408+00:00 delta=-1247844.0s
+2026-04-08 13:56:40,739 Token has expired - refreshing...
+2026-04-08 13:56:40,739 Going to log in user info@gispo.fi
+2026-04-08 13:56:41,304 User Gispo successfully logged in.
+2026-04-08 13:56:41,304 The auth token expires at 2026-04-08 22:56:40.715479+00:00
+2026-04-08 14:21:12,636 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-08 11:21:12.636814+00:00 delta=-1249315.9s
+2026-04-08 14:21:12,636 Token has expired - refreshing...
+2026-04-08 14:21:12,636 Going to log in user info@gispo.fi
+2026-04-08 14:21:13,185 User Gispo successfully logged in.
+2026-04-08 14:21:13,185 The auth token expires at 2026-04-08 23:21:12.632823+00:00
+2026-04-08 14:23:03,134 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-08 11:23:03.134485+00:00 delta=-1249426.4s
+2026-04-08 14:23:03,134 Token has expired - refreshing...
+2026-04-08 14:23:03,134 Going to log in user info@gispo.fi
+2026-04-08 14:23:03,710 User Gispo successfully logged in.
+2026-04-08 14:23:03,710 The auth token expires at 2026-04-08 23:23:03.162221+00:00
+2026-04-08 14:23:46,769 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-08 11:23:46.768644+00:00 delta=-1249470.1s
+2026-04-08 14:23:46,769 Token has expired - refreshing...
+2026-04-08 14:23:46,769 Going to log in user info@gispo.fi
+2026-04-08 14:23:47,299 User Gispo successfully logged in.
+2026-04-08 14:23:47,299 The auth token expires at 2026-04-08 23:23:46.747985+00:00
+2026-04-08 14:26:29,137 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-08 11:26:29.137397+00:00 delta=-1249632.4s
+2026-04-08 14:26:29,137 Token has expired - refreshing...
+2026-04-08 14:26:29,137 Going to log in user info@gispo.fi
+2026-04-08 14:26:30,090 User Gispo successfully logged in.
+2026-04-08 14:26:30,090 The auth token expires at 2026-04-08 23:26:29.087879+00:00
+2026-04-08 14:28:45,192 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-08 11:28:45.192785+00:00 delta=-1249768.5s
+2026-04-08 14:28:45,192 Token has expired - refreshing...
+2026-04-08 14:28:45,192 Going to log in user info@gispo.fi
+2026-04-08 14:28:45,709 User Gispo successfully logged in.
+2026-04-08 14:28:45,709 The auth token expires at 2026-04-08 23:28:44.745902+00:00
+2026-04-08 14:34:37,676 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-08 11:34:37.676343+00:00 delta=-1250121.0s
+2026-04-08 14:34:37,676 Token has expired - refreshing...
+2026-04-08 14:34:37,676 Going to log in user info@gispo.fi
+2026-04-08 14:34:38,185 User Gispo successfully logged in.
+2026-04-08 14:34:38,185 The auth token expires at 2026-04-08 23:34:37.232818+00:00
+2026-04-09 10:40:20,075 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-09 07:40:20.075466+00:00 delta=-1322463.4s
+2026-04-09 10:40:20,075 Token has expired - refreshing...
+2026-04-09 10:40:20,075 Going to log in user info@gispo.fi
+2026-04-09 10:40:20,604 User Gispo successfully logged in.
+2026-04-09 10:40:20,605 The auth token expires at 2026-04-09 19:40:20.142664+00:00
+2026-04-10 08:48:17,540 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-10 05:48:17.540714+00:00 delta=-1402140.8s
+2026-04-10 08:48:17,542 Token has expired - refreshing...
+2026-04-10 08:48:17,542 Going to log in user info@gispo.fi
+2026-04-10 08:48:18,161 User Gispo successfully logged in.
+2026-04-10 08:48:18,162 The auth token expires at 2026-04-10 17:48:16.738949+00:00
+2026-04-13 09:43:22,703 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-13 06:43:22.703118+00:00 delta=-1664646.0s
+2026-04-13 09:43:22,703 Token has expired - refreshing...
+2026-04-13 09:43:22,703 Going to log in user info@gispo.fi
+2026-04-13 09:43:23,248 User Gispo successfully logged in.
+2026-04-13 09:43:23,248 The auth token expires at 2026-04-13 18:43:20.743962+00:00
+2026-04-14 10:33:31,692 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-14 07:33:31.692284+00:00 delta=-1754055.0s
+2026-04-14 10:33:31,693 Token has expired - refreshing...
+2026-04-14 10:33:31,693 Going to log in user info@gispo.fi
+2026-04-14 10:33:32,300 User Gispo successfully logged in.
+2026-04-14 10:33:32,300 The auth token expires at 2026-04-14 19:33:32.986073+00:00
+2026-04-14 12:08:53,894 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-14 09:08:53.894310+00:00 delta=-1759777.2s
+2026-04-14 12:08:53,894 Token has expired - refreshing...
+2026-04-14 12:08:53,894 Going to log in user info@gispo.fi
+2026-04-14 12:08:54,584 User Gispo successfully logged in.
+2026-04-14 12:08:54,584 The auth token expires at 2026-04-14 21:08:55.018116+00:00
+2026-04-15 09:35:44,732 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-15 06:35:44.732804+00:00 delta=-1836988.0s
+2026-04-15 09:35:44,733 Token has expired - refreshing...
+2026-04-15 09:35:44,733 Going to log in user info@gispo.fi
+2026-04-15 09:35:45,340 User Gispo successfully logged in.
+2026-04-15 09:35:45,340 The auth token expires at 2026-04-15 18:35:45.067966+00:00
+2026-04-15 09:39:57,051 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-15 06:39:57.051121+00:00 delta=-1837240.3s
+2026-04-15 09:39:57,051 Token has expired - refreshing...
+2026-04-15 09:39:57,051 Going to log in user info@gispo.fi
+2026-04-15 09:39:57,618 User Gispo successfully logged in.
+2026-04-15 09:39:57,618 The auth token expires at 2026-04-15 18:39:57.374347+00:00
+2026-04-15 10:28:21,295 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-15 07:28:21.294272+00:00 delta=-1840144.6s
+2026-04-15 10:28:21,295 Token has expired - refreshing...
+2026-04-15 10:28:21,295 Going to log in user info@gispo.fi
+2026-04-15 10:28:21,949 User Gispo successfully logged in.
+2026-04-15 10:28:21,949 The auth token expires at 2026-04-15 19:28:21.772629+00:00
+2026-04-16 09:20:36,288 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-16 06:20:36.288866+00:00 delta=-1922479.6s
+2026-04-16 09:20:36,298 Token has expired - refreshing...
+2026-04-16 09:20:36,298 Going to log in user info@gispo.fi
+2026-04-16 09:20:37,168 User Gispo successfully logged in.
+2026-04-16 09:20:37,168 The auth token expires at 2026-04-16 18:20:36.982615+00:00
+2026-04-16 12:26:12,141 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-16 09:26:12.141093+00:00 delta=-1933615.4s
+2026-04-16 12:26:12,141 Token has expired - refreshing...
+2026-04-16 12:26:12,141 Going to log in user info@gispo.fi
+2026-04-16 12:26:12,727 User Gispo successfully logged in.
+2026-04-16 12:26:12,727 The auth token expires at 2026-04-16 21:26:12.829695+00:00
+2026-04-16 12:27:01,609 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-16 09:27:01.609866+00:00 delta=-1933664.9s
+2026-04-16 12:27:01,609 Token has expired - refreshing...
+2026-04-16 12:27:01,609 Going to log in user info@gispo.fi
+2026-04-16 12:27:02,140 User Gispo successfully logged in.
+2026-04-16 12:27:02,140 The auth token expires at 2026-04-16 21:27:02.256586+00:00
+2026-04-16 12:39:58,905 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-16 09:39:58.904039+00:00 delta=-1934442.2s
+2026-04-16 12:39:58,905 Token has expired - refreshing...
+2026-04-16 12:39:58,905 Going to log in user info@gispo.fi
+2026-04-16 12:39:59,487 User Gispo successfully logged in.
+2026-04-16 12:39:59,487 The auth token expires at 2026-04-16 21:39:59.622549+00:00
+2026-04-16 12:48:52,716 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-16 09:48:52.716256+00:00 delta=-1934976.0s
+2026-04-16 12:48:52,716 Token has expired - refreshing...
+2026-04-16 12:48:52,716 Going to log in user info@gispo.fi
+2026-04-16 12:48:53,380 User Gispo successfully logged in.
+2026-04-16 12:48:53,380 The auth token expires at 2026-04-16 21:48:53.520038+00:00
+2026-04-16 13:09:50,307 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-16 10:09:50.307459+00:00 delta=-1936233.6s
+2026-04-16 13:09:50,308 Token has expired - refreshing...
+2026-04-16 13:09:50,308 Going to log in user info@gispo.fi
+2026-04-16 13:09:50,865 User Gispo successfully logged in.
+2026-04-16 13:09:50,865 The auth token expires at 2026-04-16 22:09:51.038632+00:00
+2026-04-16 13:15:51,134 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-16 10:15:51.134929+00:00 delta=-1936594.4s
+2026-04-16 13:15:51,134 Token has expired - refreshing...
+2026-04-16 13:15:51,134 Going to log in user info@gispo.fi
+2026-04-16 13:15:51,755 User Gispo successfully logged in.
+2026-04-16 13:15:51,755 The auth token expires at 2026-04-16 22:15:51.948653+00:00
+2026-04-16 13:16:20,421 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-16 10:16:20.421227+00:00 delta=-1936623.7s
+2026-04-16 13:16:20,422 Token has expired - refreshing...
+2026-04-16 13:16:20,422 Going to log in user info@gispo.fi
+2026-04-16 13:16:21,011 User Gispo successfully logged in.
+2026-04-16 13:16:21,011 The auth token expires at 2026-04-16 22:16:21.198067+00:00
+2026-04-16 14:21:06,538 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-16 11:21:06.538617+00:00 delta=-1940509.8s
+2026-04-16 14:21:06,538 Token has expired - refreshing...
+2026-04-16 14:21:06,538 Going to log in user info@gispo.fi
+2026-04-16 14:21:07,131 User Gispo successfully logged in.
+2026-04-16 14:21:07,131 The auth token expires at 2026-04-16 23:21:07.413294+00:00
+2026-04-16 14:25:17,536 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-16 11:25:17.536898+00:00 delta=-1940760.8s
+2026-04-16 14:25:17,536 Token has expired - refreshing...
+2026-04-16 14:25:17,536 Going to log in user info@gispo.fi
+2026-04-16 14:25:18,079 User Gispo successfully logged in.
+2026-04-16 14:25:18,079 The auth token expires at 2026-04-16 23:25:18.380064+00:00
+2026-04-16 14:26:10,723 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-16 11:26:10.723752+00:00 delta=-1940814.0s
+2026-04-16 14:26:10,724 Token has expired - refreshing...
+2026-04-16 14:26:10,724 Going to log in user info@gispo.fi
+2026-04-16 14:26:11,255 User Gispo successfully logged in.
+2026-04-16 14:26:11,255 The auth token expires at 2026-04-16 23:26:11.556752+00:00
+2026-04-16 14:26:48,150 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-16 11:26:48.150979+00:00 delta=-1940851.4s
+2026-04-16 14:26:48,151 Token has expired - refreshing...
+2026-04-16 14:26:48,151 Going to log in user info@gispo.fi
+2026-04-16 14:26:48,681 User Gispo successfully logged in.
+2026-04-16 14:26:48,681 The auth token expires at 2026-04-16 23:26:48.983918+00:00
+2026-04-16 14:34:55,115 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-16 11:34:55.115374+00:00 delta=-1941338.4s
+2026-04-16 14:34:55,115 Token has expired - refreshing...
+2026-04-16 14:34:55,115 Going to log in user info@gispo.fi
+2026-04-16 14:34:55,683 User Gispo successfully logged in.
+2026-04-16 14:34:55,683 The auth token expires at 2026-04-16 23:34:55.998895+00:00
+2026-04-20 10:28:38,905 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-20 07:28:38.905878+00:00 delta=-2272162.2s
+2026-04-20 10:28:38,905 Token has expired - refreshing...
+2026-04-20 10:28:38,905 Going to log in user info@gispo.fi
+2026-04-20 10:28:39,488 User Gispo successfully logged in.
+2026-04-20 10:28:39,488 The auth token expires at 2026-04-20 19:28:38.193013+00:00
+2026-04-20 10:30:56,123 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-20 07:30:56.123456+00:00 delta=-2272299.4s
+2026-04-20 10:30:56,124 Token has expired - refreshing...
+2026-04-20 10:30:56,124 Going to log in user info@gispo.fi
+2026-04-20 10:30:56,710 User Gispo successfully logged in.
+2026-04-20 10:30:56,710 The auth token expires at 2026-04-20 19:30:55.429224+00:00
+2026-04-20 12:47:38,737 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-20 09:47:38.737746+00:00 delta=-2280502.0s
+2026-04-20 12:47:38,738 Token has expired - refreshing...
+2026-04-20 12:47:38,738 Going to log in user info@gispo.fi
+2026-04-20 12:47:39,289 User Gispo successfully logged in.
+2026-04-20 12:47:39,289 The auth token expires at 2026-04-20 21:47:37.054992+00:00
+2026-04-20 12:52:09,780 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-20 09:52:09.780599+00:00 delta=-2280773.1s
+2026-04-20 12:52:09,780 Token has expired - refreshing...
+2026-04-20 12:52:09,780 Going to log in user info@gispo.fi
+2026-04-20 12:52:10,320 User Gispo successfully logged in.
+2026-04-20 12:52:10,320 The auth token expires at 2026-04-20 21:52:08.398778+00:00
+2026-04-20 12:58:49,783 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-20 09:58:49.783800+00:00 delta=-2281173.1s
+2026-04-20 12:58:49,784 Token has expired - refreshing...
+2026-04-20 12:58:49,784 Going to log in user info@gispo.fi
+2026-04-20 12:58:50,329 User Gispo successfully logged in.
+2026-04-20 12:58:50,329 The auth token expires at 2026-04-20 21:58:48.419084+00:00
+2026-04-21 08:40:25,580 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-21 05:40:25.580063+00:00 delta=-2352068.9s
+2026-04-21 08:40:25,580 Token has expired - refreshing...
+2026-04-21 08:40:25,580 Going to log in user info@gispo.fi
+2026-04-21 08:40:26,131 User Gispo successfully logged in.
+2026-04-21 08:40:26,131 The auth token expires at 2026-04-21 17:40:24.109718+00:00
+2026-04-21 08:49:02,946 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-21 05:49:02.946462+00:00 delta=-2352586.2s
+2026-04-21 08:49:02,947 Token has expired - refreshing...
+2026-04-21 08:49:02,947 Going to log in user info@gispo.fi
+2026-04-21 08:49:03,497 User Gispo successfully logged in.
+2026-04-21 08:49:03,497 The auth token expires at 2026-04-21 17:49:01.489807+00:00
+2026-04-21 08:51:23,693 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-21 05:51:23.692256+00:00 delta=-2352727.0s
+2026-04-21 08:51:23,693 Token has expired - refreshing...
+2026-04-21 08:51:23,693 Going to log in user info@gispo.fi
+2026-04-21 08:51:24,249 User Gispo successfully logged in.
+2026-04-21 08:51:24,249 The auth token expires at 2026-04-21 17:51:22.246157+00:00
+2026-04-21 09:04:05,916 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-21 06:04:05.916798+00:00 delta=-2353489.2s
+2026-04-21 09:04:05,917 Token has expired - refreshing...
+2026-04-21 09:04:05,917 Going to log in user info@gispo.fi
+2026-04-21 09:04:06,681 User Gispo successfully logged in.
+2026-04-21 09:04:06,681 The auth token expires at 2026-04-21 18:04:04.683326+00:00
+2026-04-21 09:10:29,094 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-21 06:10:29.094781+00:00 delta=-2353872.4s
+2026-04-21 09:10:29,096 Token has expired - refreshing...
+2026-04-21 09:10:29,096 Going to log in user info@gispo.fi
+2026-04-21 09:10:29,680 User Gispo successfully logged in.
+2026-04-21 09:10:29,680 The auth token expires at 2026-04-21 18:10:27.709558+00:00
+2026-04-21 09:13:21,725 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-21 06:13:21.725515+00:00 delta=-2354045.0s
+2026-04-21 09:13:21,725 Token has expired - refreshing...
+2026-04-21 09:13:21,725 Going to log in user info@gispo.fi
+2026-04-21 09:13:22,322 User Gispo successfully logged in.
+2026-04-21 09:13:22,323 The auth token expires at 2026-04-21 18:13:20.350882+00:00
+2026-04-21 09:19:15,677 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-21 06:19:15.677984+00:00 delta=-2354399.0s
+2026-04-21 09:19:15,677 Token has expired - refreshing...
+2026-04-21 09:19:15,677 Going to log in user info@gispo.fi
+2026-04-21 09:19:16,260 User Gispo successfully logged in.
+2026-04-21 09:19:16,260 The auth token expires at 2026-04-21 18:19:14.277415+00:00
+2026-04-21 09:21:08,695 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-21 06:21:08.695546+00:00 delta=-2354512.0s
+2026-04-21 09:21:08,696 Token has expired - refreshing...
+2026-04-21 09:21:08,696 Going to log in user info@gispo.fi
+2026-04-21 09:21:09,392 User Gispo successfully logged in.
+2026-04-21 09:21:09,392 The auth token expires at 2026-04-21 18:21:07.432132+00:00
+2026-04-21 09:32:57,647 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-21 06:32:57.647386+00:00 delta=-2355220.9s
+2026-04-21 09:32:57,647 Token has expired - refreshing...
+2026-04-21 09:32:57,647 Going to log in user info@gispo.fi
+2026-04-21 09:32:58,223 User Gispo successfully logged in.
+2026-04-21 09:32:58,223 The auth token expires at 2026-04-21 18:32:56.289803+00:00
+2026-04-21 09:37:43,697 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-21 06:37:43.696964+00:00 delta=-2355507.0s
+2026-04-21 09:37:43,697 Token has expired - refreshing...
+2026-04-21 09:37:43,697 Going to log in user info@gispo.fi
+2026-04-21 09:37:44,250 User Gispo successfully logged in.
+2026-04-21 09:37:44,250 The auth token expires at 2026-04-21 18:37:42.320233+00:00
+2026-04-21 09:43:14,871 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-21 06:43:14.871572+00:00 delta=-2355838.2s
+2026-04-21 09:43:14,871 Token has expired - refreshing...
+2026-04-21 09:43:14,871 Going to log in user info@gispo.fi
+2026-04-21 09:43:15,425 User Gispo successfully logged in.
+2026-04-21 09:43:15,425 The auth token expires at 2026-04-21 18:43:13.503127+00:00
+2026-04-21 09:50:17,697 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-21 06:50:17.697512+00:00 delta=-2356261.0s
+2026-04-21 09:50:17,697 Token has expired - refreshing...
+2026-04-21 09:50:17,697 Going to log in user info@gispo.fi
+2026-04-21 09:50:18,242 User Gispo successfully logged in.
+2026-04-21 09:50:18,242 The auth token expires at 2026-04-21 18:50:16.334430+00:00
+2026-04-21 09:53:01,405 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-21 06:53:01.405983+00:00 delta=-2356424.7s
+2026-04-21 09:53:01,406 Token has expired - refreshing...
+2026-04-21 09:53:01,406 Going to log in user info@gispo.fi
+2026-04-21 09:53:02,041 User Gispo successfully logged in.
+2026-04-21 09:53:02,041 The auth token expires at 2026-04-21 18:53:00.135113+00:00
+2026-04-21 10:14:14,514 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-21 07:14:14.514519+00:00 delta=-2357697.8s
+2026-04-21 10:14:14,514 Token has expired - refreshing...
+2026-04-21 10:14:14,514 Going to log in user info@gispo.fi
+2026-04-21 10:14:15,168 User Gispo successfully logged in.
+2026-04-21 10:14:15,168 The auth token expires at 2026-04-21 19:14:13.288600+00:00
+2026-04-21 10:16:50,004 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-21 07:16:50.004295+00:00 delta=-2357853.3s
+2026-04-21 10:16:50,004 Token has expired - refreshing...
+2026-04-21 10:16:50,004 Going to log in user info@gispo.fi
+2026-04-21 10:16:50,625 User Gispo successfully logged in.
+2026-04-21 10:16:50,625 The auth token expires at 2026-04-21 19:16:48.757487+00:00
+2026-04-21 13:30:50,691 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-21 10:30:50.691815+00:00 delta=-2369494.0s
+2026-04-21 13:30:50,691 Token has expired - refreshing...
+2026-04-21 13:30:50,691 Going to log in user info@gispo.fi
+2026-04-21 13:30:51,769 User Gispo successfully logged in.
+2026-04-21 13:30:51,769 The auth token expires at 2026-04-21 22:30:50.189374+00:00
+2026-04-21 14:14:00,894 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-21 11:14:00.894663+00:00 delta=-2372084.2s
+2026-04-21 14:14:00,896 Token has expired - refreshing...
+2026-04-21 14:14:00,896 Going to log in user info@gispo.fi
+2026-04-21 14:14:01,528 User Gispo successfully logged in.
+2026-04-21 14:14:01,528 The auth token expires at 2026-04-21 23:13:59.985975+00:00
+2026-04-23 10:25:47,629 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-23 07:25:47.629629+00:00 delta=-2531190.9s
+2026-04-23 10:25:47,638 Token has expired - refreshing...
+2026-04-23 10:25:47,638 Going to log in user info@gispo.fi
+2026-04-23 10:25:48,249 User Gispo successfully logged in.
+2026-04-23 10:25:48,249 The auth token expires at 2026-04-23 19:25:47.832358+00:00
+2026-04-23 12:08:41,620 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-23 09:08:41.620448+00:00 delta=-2537364.9s
+2026-04-23 12:08:41,620 Token has expired - refreshing...
+2026-04-23 12:08:41,621 Going to log in user info@gispo.fi
+2026-04-23 12:08:42,218 User Gispo successfully logged in.
+2026-04-23 12:08:42,219 The auth token expires at 2026-04-23 21:08:41.154819+00:00
+2026-04-23 12:09:00,578 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-23 09:09:00.578156+00:00 delta=-2537383.9s
+2026-04-23 12:09:00,579 Token has expired - refreshing...
+2026-04-23 12:09:00,579 Going to log in user info@gispo.fi
+2026-04-23 12:09:01,117 User Gispo successfully logged in.
+2026-04-23 12:09:01,117 The auth token expires at 2026-04-23 21:09:00.046231+00:00
+2026-04-23 12:24:51,103 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-23 09:24:51.103830+00:00 delta=-2538334.4s
+2026-04-23 12:24:51,103 Token has expired - refreshing...
+2026-04-23 12:24:51,104 Going to log in user info@gispo.fi
+2026-04-23 12:24:51,726 User Gispo successfully logged in.
+2026-04-23 12:24:51,726 The auth token expires at 2026-04-23 21:24:50.678501+00:00
+2026-04-23 12:39:40,948 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-23 09:39:40.948581+00:00 delta=-2539224.2s
+2026-04-23 12:39:40,948 Token has expired - refreshing...
+2026-04-23 12:39:40,949 Going to log in user info@gispo.fi
+2026-04-23 12:39:41,540 User Gispo successfully logged in.
+2026-04-23 12:39:41,540 The auth token expires at 2026-04-23 21:39:40.307428+00:00
+2026-04-23 13:17:50,994 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-23 10:17:50.994058+00:00 delta=-2541514.3s
+2026-04-23 13:17:50,994 Token has expired - refreshing...
+2026-04-23 13:17:50,994 Going to log in user info@gispo.fi
+2026-04-23 13:17:51,588 User Gispo successfully logged in.
+2026-04-23 13:17:51,588 The auth token expires at 2026-04-23 22:17:50.454242+00:00
+2026-04-23 13:35:15,819 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-23 10:35:15.819912+00:00 delta=-2542559.1s
+2026-04-23 13:35:15,819 Token has expired - refreshing...
+2026-04-23 13:35:15,819 Going to log in user info@gispo.fi
+2026-04-23 13:35:16,382 User Gispo successfully logged in.
+2026-04-23 13:35:16,382 The auth token expires at 2026-04-23 22:35:15.275090+00:00
+2026-04-23 13:58:35,354 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-23 10:58:35.354863+00:00 delta=-2543958.6s
+2026-04-23 13:58:35,354 Token has expired - refreshing...
+2026-04-23 13:58:35,354 Going to log in user info@gispo.fi
+2026-04-23 13:58:35,911 User Gispo successfully logged in.
+2026-04-23 13:58:35,911 The auth token expires at 2026-04-23 22:58:34.835141+00:00
+2026-04-23 14:03:42,332 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-23 11:03:42.332633+00:00 delta=-2544265.6s
+2026-04-23 14:03:42,333 Token has expired - refreshing...
+2026-04-23 14:03:42,333 Going to log in user info@gispo.fi
+2026-04-23 14:03:42,860 User Gispo successfully logged in.
+2026-04-23 14:03:42,860 The auth token expires at 2026-04-23 23:03:41.799162+00:00
+2026-04-23 14:15:01,573 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-23 11:15:01.573432+00:00 delta=-2544944.9s
+2026-04-23 14:15:01,573 Token has expired - refreshing...
+2026-04-23 14:15:01,573 Going to log in user info@gispo.fi
+2026-04-23 14:15:02,161 User Gispo successfully logged in.
+2026-04-23 14:15:02,161 The auth token expires at 2026-04-23 23:15:01.108646+00:00
+2026-04-24 09:36:31,845 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-24 06:36:31.845733+00:00 delta=-2614635.1s
+2026-04-24 09:36:31,846 Token has expired - refreshing...
+2026-04-24 09:36:31,846 Going to log in user info@gispo.fi
+2026-04-24 09:36:32,664 User Gispo successfully logged in.
+2026-04-24 09:36:32,664 The auth token expires at 2026-04-24 18:36:32.621863+00:00
+2026-04-24 09:56:05,297 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-24 06:56:05.297267+00:00 delta=-2615808.6s
+2026-04-24 09:56:05,305 Token has expired - refreshing...
+2026-04-24 09:56:05,305 Going to log in user info@gispo.fi
+2026-04-24 09:56:05,987 User Gispo successfully logged in.
+2026-04-24 09:56:05,987 The auth token expires at 2026-04-24 18:56:06.014171+00:00
+2026-04-24 11:10:57,838 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-24 08:10:57.838684+00:00 delta=-2620301.1s
+2026-04-24 11:10:57,839 Token has expired - refreshing...
+2026-04-24 11:10:57,839 Going to log in user info@gispo.fi
+2026-04-24 11:10:58,680 User Gispo successfully logged in.
+2026-04-24 11:10:58,680 The auth token expires at 2026-04-24 20:10:58.834687+00:00
+2026-04-24 11:13:01,041 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-24 08:13:01.041407+00:00 delta=-2620424.3s
+2026-04-24 11:13:01,041 Token has expired - refreshing...
+2026-04-24 11:13:01,041 Going to log in user info@gispo.fi
+2026-04-24 11:13:01,649 User Gispo successfully logged in.
+2026-04-24 11:13:01,649 The auth token expires at 2026-04-24 20:13:01.805345+00:00
+2026-04-24 11:19:41,879 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-24 08:19:41.879344+00:00 delta=-2620825.2s
+2026-04-24 11:19:41,879 Token has expired - refreshing...
+2026-04-24 11:19:41,879 Going to log in user info@gispo.fi
+2026-04-24 11:19:53,051 Login problem: Error requesting https://app.merginmaps.com/v1/auth/login: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-04-24 14:24:56,899 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-24 11:24:56.898092+00:00 delta=-2631940.2s
+2026-04-24 14:24:56,899 Token has expired - refreshing...
+2026-04-24 14:24:56,899 Going to log in user info@gispo.fi
+2026-04-24 14:24:57,798 User Gispo successfully logged in.
+2026-04-24 14:24:57,798 The auth token expires at 2026-04-24 23:24:58.042995+00:00
+2026-04-27 08:57:11,115 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-27 05:57:11.115819+00:00 delta=-2871474.4s
+2026-04-27 08:57:11,116 Token has expired - refreshing...
+2026-04-27 08:57:11,116 Going to log in user info@gispo.fi
+2026-04-27 08:57:11,660 User Gispo successfully logged in.
+2026-04-27 08:57:11,660 The auth token expires at 2026-04-27 17:57:10.980789+00:00
+2026-04-27 09:51:01,734 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-27 06:51:01.734736+00:00 delta=-2874705.0s
+2026-04-27 09:51:01,734 Token has expired - refreshing...
+2026-04-27 09:51:01,734 Going to log in user info@gispo.fi
+2026-04-27 09:51:02,323 User Gispo successfully logged in.
+2026-04-27 09:51:02,323 The auth token expires at 2026-04-27 18:51:01.724518+00:00
+2026-04-27 09:57:49,253 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-27 06:57:49.253769+00:00 delta=-2875112.5s
+2026-04-27 09:57:49,253 Token has expired - refreshing...
+2026-04-27 09:57:49,253 Going to log in user info@gispo.fi
+2026-04-27 09:57:49,807 User Gispo successfully logged in.
+2026-04-27 09:57:49,807 The auth token expires at 2026-04-27 18:57:49.215795+00:00
+2026-04-27 11:03:50,426 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-27 08:03:50.425147+00:00 delta=-2879073.7s
+2026-04-27 11:03:50,427 Token has expired - refreshing...
+2026-04-27 11:03:50,427 Going to log in user info@gispo.fi
+2026-04-27 11:03:51,021 User Gispo successfully logged in.
+2026-04-27 11:03:51,021 The auth token expires at 2026-04-27 20:03:50.519157+00:00
+2026-04-27 12:14:46,453 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-27 09:14:46.453111+00:00 delta=-2883329.7s
+2026-04-27 12:14:46,453 Token has expired - refreshing...
+2026-04-27 12:14:46,453 Going to log in user info@gispo.fi
+2026-04-27 12:14:47,034 User Gispo successfully logged in.
+2026-04-27 12:14:47,034 The auth token expires at 2026-04-27 21:14:46.920266+00:00
+2026-04-27 12:45:39,740 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-27 09:45:39.740123+00:00 delta=-2885183.0s
+2026-04-27 12:45:39,740 Token has expired - refreshing...
+2026-04-27 12:45:39,740 Going to log in user info@gispo.fi
+2026-04-27 12:45:40,414 User Gispo successfully logged in.
+2026-04-27 12:45:40,415 The auth token expires at 2026-04-27 21:45:40.338243+00:00
+2026-04-27 13:13:16,485 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-27 10:13:16.485401+00:00 delta=-2886839.8s
+2026-04-27 13:13:16,485 Token has expired - refreshing...
+2026-04-27 13:13:16,485 Going to log in user info@gispo.fi
+2026-04-27 13:13:17,096 User Gispo successfully logged in.
+2026-04-27 13:13:17,096 The auth token expires at 2026-04-27 22:13:17.063543+00:00
+2026-04-27 14:35:13,244 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-27 11:35:13.244264+00:00 delta=-2891756.5s
+2026-04-27 14:35:13,245 Token has expired - refreshing...
+2026-04-27 14:35:13,245 Going to log in user info@gispo.fi
+2026-04-27 14:35:13,838 User Gispo successfully logged in.
+2026-04-27 14:35:13,839 The auth token expires at 2026-04-27 23:35:13.929871+00:00
+2026-04-28 08:57:24,865 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-28 05:57:24.865975+00:00 delta=-2957888.2s
+2026-04-28 08:57:24,866 Token has expired - refreshing...
+2026-04-28 08:57:24,866 Going to log in user info@gispo.fi
+2026-04-28 08:57:26,460 User Gispo successfully logged in.
+2026-04-28 08:57:26,460 The auth token expires at 2026-04-28 17:57:25.823693+00:00
+2026-04-28 10:01:46,995 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-28 07:01:46.995515+00:00 delta=-2961750.3s
+2026-04-28 10:01:46,996 Token has expired - refreshing...
+2026-04-28 10:01:46,996 Going to log in user info@gispo.fi
+2026-04-28 10:01:47,726 User Gispo successfully logged in.
+2026-04-28 10:01:47,726 The auth token expires at 2026-04-28 19:01:47.189962+00:00
+2026-04-28 10:46:04,764 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-28 07:46:04.764068+00:00 delta=-2964408.1s
+2026-04-28 10:46:04,764 Token has expired - refreshing...
+2026-04-28 10:46:04,764 Going to log in user info@gispo.fi
+2026-04-28 10:46:05,354 User Gispo successfully logged in.
+2026-04-28 10:46:05,354 The auth token expires at 2026-04-28 19:46:04.872230+00:00
+2026-04-28 10:52:23,762 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-28 07:52:23.762636+00:00 delta=-2964787.1s
+2026-04-28 10:52:23,762 Token has expired - refreshing...
+2026-04-28 10:52:23,763 Going to log in user info@gispo.fi
+2026-04-28 10:52:24,357 User Gispo successfully logged in.
+2026-04-28 10:52:24,357 The auth token expires at 2026-04-28 19:52:23.896162+00:00
+2026-04-28 11:01:45,290 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-28 08:01:45.290940+00:00 delta=-2965348.6s
+2026-04-28 11:01:45,291 Token has expired - refreshing...
+2026-04-28 11:01:45,291 Going to log in user info@gispo.fi
+2026-04-28 11:01:46,031 User Gispo successfully logged in.
+2026-04-28 11:01:46,031 The auth token expires at 2026-04-28 20:01:45.584807+00:00
+2026-04-28 13:52:14,883 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-28 10:52:14.883117+00:00 delta=-2975578.2s
+2026-04-28 13:52:14,884 Token has expired - refreshing...
+2026-04-28 13:52:14,884 Going to log in user info@gispo.fi
+2026-04-28 13:52:15,461 User Gispo successfully logged in.
+2026-04-28 13:52:15,461 The auth token expires at 2026-04-28 22:52:15.498458+00:00
+2026-04-29 09:55:52,745 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-29 06:55:52.745329+00:00 delta=-3047796.0s
+2026-04-29 09:55:52,745 Token has expired - refreshing...
+2026-04-29 09:55:52,745 Going to log in user info@gispo.fi
+2026-04-29 09:55:53,346 User Gispo successfully logged in.
+2026-04-29 09:55:53,346 The auth token expires at 2026-04-29 18:55:53.458434+00:00
+2026-04-29 10:31:52,263 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-29 07:31:52.263060+00:00 delta=-3049955.6s
+2026-04-29 10:31:52,264 Token has expired - refreshing...
+2026-04-29 10:31:52,264 Going to log in user info@gispo.fi
+2026-04-29 10:31:52,921 User Gispo successfully logged in.
+2026-04-29 10:31:52,921 The auth token expires at 2026-04-29 19:31:53.086291+00:00
+2026-04-29 12:23:20,560 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-29 09:23:20.560468+00:00 delta=-3056643.8s
+2026-04-29 12:23:20,560 Token has expired - refreshing...
+2026-04-29 12:23:20,561 Going to log in user info@gispo.fi
+2026-04-29 12:23:21,313 User Gispo successfully logged in.
+2026-04-29 12:23:21,313 The auth token expires at 2026-04-29 21:23:22.633478+00:00
+2026-04-29 12:27:07,809 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-29 09:27:07.809380+00:00 delta=-3056871.1s
+2026-04-29 12:27:07,810 Token has expired - refreshing...
+2026-04-29 12:27:07,810 Going to log in user info@gispo.fi
+2026-04-29 12:27:08,430 User Gispo successfully logged in.
+2026-04-29 12:27:08,430 The auth token expires at 2026-04-29 21:27:09.680565+00:00
+2026-04-29 12:30:59,061 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-04-29 09:30:59.061378+00:00 delta=-3057102.4s
+2026-04-29 12:30:59,061 Token has expired - refreshing...
+2026-04-29 12:30:59,061 Going to log in user info@gispo.fi
+2026-04-29 12:30:59,604 User Gispo successfully logged in.
+2026-04-29 12:30:59,604 The auth token expires at 2026-04-29 21:31:00.873995+00:00
+2026-05-04 10:21:32,531 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-05-04 07:21:32.531184+00:00 delta=-3481335.8s
+2026-05-04 10:21:32,532 Token has expired - refreshing...
+2026-05-04 10:21:32,532 Going to log in user info@gispo.fi
+2026-05-04 10:21:33,089 User Gispo successfully logged in.
+2026-05-04 10:21:33,089 The auth token expires at 2026-05-04 19:21:31.606425+00:00
+2026-05-04 10:32:56,571 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-05-04 07:32:56.571337+00:00 delta=-3482019.9s
+2026-05-04 10:32:56,571 Token has expired - refreshing...
+2026-05-04 10:32:56,571 Going to log in user info@gispo.fi
+2026-05-04 10:32:57,266 User Gispo successfully logged in.
+2026-05-04 10:32:57,266 The auth token expires at 2026-05-04 19:32:55.803218+00:00
+2026-05-04 11:00:31,853 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-05-04 08:00:31.852239+00:00 delta=-3483675.1s
+2026-05-04 11:00:31,853 Token has expired - refreshing...
+2026-05-04 11:00:31,853 Going to log in user info@gispo.fi
+2026-05-04 11:00:32,485 User Gispo successfully logged in.
+2026-05-04 11:00:32,485 The auth token expires at 2026-05-04 20:00:31.081166+00:00
+2026-05-04 11:03:25,044 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-05-04 08:03:25.044675+00:00 delta=-3483848.3s
+2026-05-04 11:03:25,044 Token has expired - refreshing...
+2026-05-04 11:03:25,044 Going to log in user info@gispo.fi
+2026-05-04 11:03:25,598 User Gispo successfully logged in.
+2026-05-04 11:03:25,599 The auth token expires at 2026-05-04 20:03:24.199014+00:00
+2026-05-04 12:01:40,966 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-05-04 09:01:40.966086+00:00 delta=-3487344.3s
+2026-05-04 12:01:40,967 Token has expired - refreshing...
+2026-05-04 12:01:40,967 Going to log in user info@gispo.fi
+2026-05-04 12:01:41,658 User Gispo successfully logged in.
+2026-05-04 12:01:41,658 The auth token expires at 2026-05-04 21:01:40.100193+00:00
+2026-05-11 09:34:33,531 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-05-11 06:34:33.531398+00:00 delta=-4083316.8s
+2026-05-11 09:34:33,532 Token has expired - refreshing...
+2026-05-11 09:34:33,532 Going to log in user info@gispo.fi
+2026-05-11 09:34:34,307 User Gispo successfully logged in.
+2026-05-11 09:34:34,307 The auth token expires at 2026-05-11 18:34:29.539658+00:00
+2026-05-11 10:17:49,687 Token has expired: expire=2026-05-04 21:01:40.100193+00:00 now=2026-05-11 07:17:49.677603+00:00 delta=-555369.6s
+2026-05-11 10:17:49,710 Token has expired - refreshing...
+2026-05-11 10:17:49,710 Going to log in user info@gispo.fi
+2026-05-11 10:17:50,446 User Gispo successfully logged in.
+2026-05-11 10:17:50,446 The auth token expires at 2026-05-11 19:17:45.831328+00:00
+2026-05-11 10:55:52,414 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-05-11 07:55:52.414605+00:00 delta=-4088195.7s
+2026-05-11 10:55:52,427 Token has expired - refreshing...
+2026-05-11 10:55:52,427 Going to log in user info@gispo.fi
+2026-05-11 10:55:53,042 User Gispo successfully logged in.
+2026-05-11 10:55:53,042 The auth token expires at 2026-05-11 19:55:48.559211+00:00
+2026-05-11 11:06:29,503 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-05-11 08:06:29.503678+00:00 delta=-4088832.8s
+2026-05-11 11:06:29,503 Token has expired - refreshing...
+2026-05-11 11:06:29,503 Going to log in user info@gispo.fi
+2026-05-11 11:06:30,066 User Gispo successfully logged in.
+2026-05-11 11:06:30,066 The auth token expires at 2026-05-11 20:06:25.627576+00:00
+2026-05-11 14:22:19,712 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-05-11 11:22:19.712621+00:00 delta=-4100583.0s
+2026-05-11 14:22:19,712 Token has expired - refreshing...
+2026-05-11 14:22:19,712 Going to log in user info@gispo.fi
+2026-05-11 14:22:20,327 User Gispo successfully logged in.
+2026-05-11 14:22:20,328 The auth token expires at 2026-05-11 23:22:16.202654+00:00
+2026-05-11 14:27:28,628 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-05-11 11:27:28.628829+00:00 delta=-4100891.9s
+2026-05-11 14:27:28,628 Token has expired - refreshing...
+2026-05-11 14:27:28,628 Going to log in user info@gispo.fi
+2026-05-11 14:27:29,169 User Gispo successfully logged in.
+2026-05-11 14:27:29,169 The auth token expires at 2026-05-11 23:27:25.056356+00:00
+2026-05-11 14:29:58,991 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-05-11 11:29:58.991750+00:00 delta=-4101042.3s
+2026-05-11 14:29:58,993 Token has expired - refreshing...
+2026-05-11 14:29:58,993 Going to log in user info@gispo.fi
+2026-05-11 14:29:59,653 User Gispo successfully logged in.
+2026-05-11 14:29:59,653 The auth token expires at 2026-05-11 23:29:55.543742+00:00
+2026-05-12 08:19:19,773 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-05-12 05:19:19.773068+00:00 delta=-4165203.1s
+2026-05-12 08:19:19,783 Token has expired - refreshing...
+2026-05-12 08:19:19,783 Going to log in user info@gispo.fi
+2026-05-12 08:19:20,349 User Gispo successfully logged in.
+2026-05-12 08:19:20,349 The auth token expires at 2026-05-12 17:19:15.372788+00:00
+2026-05-12 10:25:09,721 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-05-12 07:25:09.719931+00:00 delta=-4172753.0s
+2026-05-12 10:25:09,721 Token has expired - refreshing...
+2026-05-12 10:25:09,721 Going to log in user info@gispo.fi
+2026-05-12 10:25:10,307 User Gispo successfully logged in.
+2026-05-12 10:25:10,308 The auth token expires at 2026-05-12 19:25:05.563003+00:00
+2026-05-12 11:10:23,834 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-05-12 08:10:23.834181+00:00 delta=-4175467.1s
+2026-05-12 11:10:23,834 Token has expired - refreshing...
+2026-05-12 11:10:23,834 Going to log in user info@gispo.fi
+2026-05-12 11:10:24,391 User Gispo successfully logged in.
+2026-05-12 11:10:24,391 The auth token expires at 2026-05-12 20:10:19.667397+00:00
+2026-05-12 11:36:59,207 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-05-12 08:36:59.207244+00:00 delta=-4177062.5s
+2026-05-12 11:36:59,208 Token has expired - refreshing...
+2026-05-12 11:36:59,208 Going to log in user info@gispo.fi
+2026-05-12 11:36:59,753 User Gispo successfully logged in.
+2026-05-12 11:36:59,753 The auth token expires at 2026-05-12 20:36:55.085349+00:00
+2026-05-12 12:17:09,628 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-05-12 09:17:09.628989+00:00 delta=-4179472.9s
+2026-05-12 12:17:09,630 Token has expired - refreshing...
+2026-05-12 12:17:09,630 Going to log in user info@gispo.fi
+2026-05-12 12:17:10,589 User Gispo successfully logged in.
+2026-05-12 12:17:10,589 The auth token expires at 2026-05-12 21:17:05.990716+00:00
+2026-05-12 13:04:05,603 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-05-12 10:04:05.603821+00:00 delta=-4182288.9s
+2026-05-12 13:04:05,603 Token has expired - refreshing...
+2026-05-12 13:04:05,603 Going to log in user info@gispo.fi
+2026-05-12 13:04:06,207 User Gispo successfully logged in.
+2026-05-12 13:04:06,207 The auth token expires at 2026-05-12 22:04:01.689920+00:00
+2026-05-12 13:10:53,045 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-05-12 10:10:53.045675+00:00 delta=-4182696.3s
+2026-05-12 13:10:53,045 Token has expired - refreshing...
+2026-05-12 13:10:53,045 Going to log in user info@gispo.fi
+2026-05-12 13:10:53,616 User Gispo successfully logged in.
+2026-05-12 13:10:53,619 The auth token expires at 2026-05-12 22:10:49.114058+00:00
+2026-05-12 13:26:00,046 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-05-12 10:26:00.046658+00:00 delta=-4183603.3s
+2026-05-12 13:26:00,046 Token has expired - refreshing...
+2026-05-12 13:26:00,046 Going to log in user info@gispo.fi
+2026-05-12 13:26:00,619 User Gispo successfully logged in.
+2026-05-12 13:26:00,619 The auth token expires at 2026-05-12 22:25:56.138126+00:00
+2026-05-13 09:26:16,283 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-05-13 06:26:16.283403+00:00 delta=-4255619.6s
+2026-05-13 09:26:16,283 Token has expired - refreshing...
+2026-05-13 09:26:16,285 Going to log in user info@gispo.fi
+2026-05-13 09:26:16,981 User Gispo successfully logged in.
+2026-05-13 09:26:16,981 The auth token expires at 2026-05-13 18:26:17.034599+00:00
+2026-05-13 12:45:36,019 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-05-13 09:45:36.019672+00:00 delta=-4267579.3s
+2026-05-13 12:45:36,019 Token has expired - refreshing...
+2026-05-13 12:45:36,020 Going to log in user info@gispo.fi
+2026-05-13 12:45:36,833 User Gispo successfully logged in.
+2026-05-13 12:45:36,833 The auth token expires at 2026-05-13 21:45:37.176425+00:00
+2026-05-13 12:46:54,730 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-05-13 09:46:54.730527+00:00 delta=-4267658.0s
+2026-05-13 12:46:54,730 Token has expired - refreshing...
+2026-05-13 12:46:54,730 Going to log in user info@gispo.fi
+2026-05-13 12:46:55,278 User Gispo successfully logged in.
+2026-05-13 12:46:55,278 The auth token expires at 2026-05-13 21:46:55.638908+00:00
+2026-05-20 11:26:42,570 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-05-20 08:26:42.570344+00:00 delta=-4867645.9s
+2026-05-20 11:26:42,571 Token has expired - refreshing...
+2026-05-20 11:26:42,571 Going to log in user info@gispo.fi
+2026-05-20 11:26:43,156 User Gispo successfully logged in.
+2026-05-20 11:26:43,157 The auth token expires at 2026-05-20 20:26:44.123331+00:00
+2026-05-20 11:33:37,679 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-05-20 08:33:37.679375+00:00 delta=-4868061.0s
+2026-05-20 11:33:37,679 Token has expired - refreshing...
+2026-05-20 11:33:37,679 Going to log in user info@gispo.fi
+2026-05-20 11:33:38,222 User Gispo successfully logged in.
+2026-05-20 11:33:38,222 The auth token expires at 2026-05-20 20:33:39.188781+00:00
+2026-05-24 07:34:18,859 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-05-24 04:34:18.859039+00:00 delta=-5199302.1s
+2026-05-24 07:34:18,860 Token has expired - refreshing...
+2026-05-24 07:34:18,860 Going to log in user info@gispo.fi
+2026-05-24 07:34:19,420 User Gispo successfully logged in.
+2026-05-24 07:34:19,420 The auth token expires at 2026-05-24 16:34:19.343549+00:00
+2026-05-24 07:56:05,409 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-05-24 04:56:05.409022+00:00 delta=-5200608.7s
+2026-05-24 07:56:05,409 Token has expired - refreshing...
+2026-05-24 07:56:05,409 Going to log in user info@gispo.fi
+2026-05-24 07:56:05,985 User Gispo successfully logged in.
+2026-05-24 07:56:05,985 The auth token expires at 2026-05-24 16:56:06.534673+00:00
+2026-06-08 10:56:40,911 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-06-08 07:56:40.911870+00:00 delta=-6507444.2s
+2026-06-08 10:56:40,913 Token has expired - refreshing...
+2026-06-08 10:56:40,913 Going to log in user info@gispo.fi
+2026-06-08 10:56:41,542 User Gispo successfully logged in.
+2026-06-08 10:56:41,542 The auth token expires at 2026-06-08 19:56:40.858638+00:00
+2026-09-01 13:22:14,891 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-09-01 10:22:14.891112+00:00 delta=-13860178.2s
+2026-09-01 13:22:14,891 Token has expired - refreshing...
+2026-09-01 13:22:14,891 Going to log in user info@gispo.fi
+2026-09-01 13:22:15,436 User Gispo successfully logged in.
+2026-09-01 13:22:15,436 The auth token expires at 2026-09-01 22:22:15.703825+00:00
+2026-09-01 13:30:24,866 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-09-01 10:30:24.866897+00:00 delta=-13860668.2s
+2026-09-01 13:30:24,866 Token has expired - refreshing...
+2026-09-01 13:30:24,866 Going to log in user info@gispo.fi
+2026-09-01 13:30:25,548 User Gispo successfully logged in.
+2026-09-01 13:30:25,548 The auth token expires at 2026-09-01 22:30:25.819255+00:00
+2026-09-01 13:50:57,789 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-09-01 10:50:57.789831+00:00 delta=-13861901.1s
+2026-09-01 13:50:57,789 Token has expired - refreshing...
+2026-09-01 13:50:57,789 Going to log in user info@gispo.fi
+2026-09-01 13:50:58,245 User Gispo successfully logged in.
+2026-09-01 13:50:58,245 The auth token expires at 2026-09-01 22:50:58.569576+00:00
+2026-09-01 13:57:51,463 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-09-01 10:57:51.463452+00:00 delta=-13862314.8s
+2026-09-01 13:57:51,463 Token has expired - refreshing...
+2026-09-01 13:57:51,463 Going to log in user info@gispo.fi
+2026-09-01 13:57:51,917 User Gispo successfully logged in.
+2026-09-01 13:57:51,918 The auth token expires at 2026-09-01 22:57:52.238690+00:00
+2026-09-02 10:30:04,753 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-09-02 07:30:04.753825+00:00 delta=-13936248.0s
+2026-09-02 10:30:04,753 Token has expired - refreshing...
+2026-09-02 10:30:04,753 Going to log in user info@gispo.fi
+2026-09-02 10:30:05,265 User Gispo successfully logged in.
+2026-09-02 10:30:05,265 The auth token expires at 2026-09-02 19:30:05.664243+00:00
+2026-09-02 13:05:53,865 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-09-02 10:05:53.865805+00:00 delta=-13945597.2s
+2026-09-02 13:05:53,865 Token has expired - refreshing...
+2026-09-02 13:05:53,865 Going to log in user info@gispo.fi
+2026-09-02 13:05:54,391 User Gispo successfully logged in.
+2026-09-02 13:05:54,392 The auth token expires at 2026-09-02 22:05:54.894175+00:00
+2026-09-02 14:19:06,907 Token has expired: expire=2026-03-25 00:19:16.710927+00:00 now=2026-09-02 11:19:06.907194+00:00 delta=-13949990.2s
+2026-09-02 14:19:06,907 Token has expired - refreshing...
+2026-09-02 14:19:06,907 Going to log in user info@gispo.fi
+2026-09-02 14:19:07,371 User Gispo successfully logged in.
+2026-09-02 14:19:07,371 The auth token expires at 2026-09-02 23:19:08.013187+00:00
