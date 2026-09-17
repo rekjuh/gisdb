@@ -15,7 +15,7 @@ SET QGIS_VERSION=3.44.11
 REM ---------------------------------------------------------------------------
 
 REM Check that we have QGIS executable
-SET QGIS_EXE_PATH="C:\Program Files\QGIS %QGIS_VERSION%\bin\qgis-ltr-bin.exe"
+SET QGIS_EXE_PATH="C:\Program Files\QGIS 3.40.7\bin\qgis-ltr-bin.exe"
 
 IF NOT EXIST %QGIS_EXE_PATH% (
 	echo Not found QGIS executable in %QGIS_EXE_PATH%
@@ -26,7 +26,7 @@ IF NOT EXIST %QGIS_EXE_PATH% (
 pushd %~dp0
 
 if exist "qgis_profiles" SET QGIS_CUSTOM_CONFIG_PATH=%~dp0qgis_profiles
-if exist "qgis_settings\qgis_global_settings.ini" SET QGIS_GLOBAL_SETTINGS_FILE=%~dp0qgis_settings\qgis_global_settings.ini
+if exist "qgis_settings\qgis_global_settings.ini" SET QGIS_GLOBAL_SETTINGS_FILE=%~dp0qgis\parameters\qgis_global_settings.ini
 if exist "qgis_settings\qgis_custom_ui.ini" SET QGIS_CUSTOM_UI_FILE=%~dp0qgis_settings\qgis_custom_ui.ini
 
 if exist "%~dp0pgservice.conf" (
