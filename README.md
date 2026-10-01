@@ -5,8 +5,26 @@ This is a sample of QGIS versioned setup.
 - Download and install QGIS versions under C:/Program Files/
 - modify qgis/dev/qgis_start.cmd as needed
 
-##
-TO DO:
+# TO DO
+Päivitetty 1.10.2026:
+Tavoite: testata QGIS 3.44 keskitetty asennus. Sitten kun se toimii, muuttaa skripti niin, että se ajaakin QGIS 4:ää.
+Skriptin pitäisi ajaa:
+- QGIS 3.44 LTR auki
+- custom-profiili
+- tietyt lisäosat
+- kustoimitu käyttöliittymä
+- rajapintayhteyksiä
+- tietokantayhteksiä (jos keksii)
+- jokin rajapintayhteys API-avaimen / tunnistetietojen kanssa
+- 3.44:ssä luotu QGIS-projektitiedosto
+
+Kun tuo saatu tehtyä, muutetaan skripti ajamaan QGIS 4 ja muuten samat asiat.
+- Kirjataan havainnot
+- Mikä toimii
+- Mikä menee rikki
+- Muut huomiot
+
+-----
 
 ### Create:
 - different sample .ini files
