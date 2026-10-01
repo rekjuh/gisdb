@@ -24,6 +24,9 @@ Kun tuo saatu tehtyä, muutetaan skripti ajamaan QGIS 4 ja muuten samat asiat.
 - Mikä menee rikki
 - Muut huomiot
 
+Työvaiheita:
+- lisää uusi profiilikansio ja lisäosat tähän repoon, että kulkevat helposti mukana ja voi testata eri laitteilla
+- lisää päivitetyt .ini-tiedostot ja .bat-tiedostot tähän repoon, että kulkevat helposti mukana
 -----
 
 ### Create:
