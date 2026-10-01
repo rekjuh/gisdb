@@ -15,7 +15,7 @@ Skriptin pitäisi ajaa:
 - kustoimitu käyttöliittymä
 - rajapintayhteyksiä
 - tietokantayhteksiä (jos keksii)
-- jokin rajapintayhteys API-avaimen / tunnistetietojen kanssa
+- jokin rajapintayhteys API-avaimen / tunnistetietojen kanssa (tai pgAdminilla tietokanta pystyyn lokaalisti ja yhteys siihen)
 - 3.44:ssä luotu QGIS-projektitiedosto
 
 Kun tuo saatu tehtyä, muutetaan skripti ajamaan QGIS 4 ja muuten samat asiat.
