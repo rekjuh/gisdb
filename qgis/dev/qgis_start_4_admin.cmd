@@ -17,7 +17,7 @@ SET QGIS_VERSION=4.2.2.
 REM ---------------------------------------------------------------------------
 
 REM Check that we have QGIS executable
-SET QGIS_EXE_PATH="C:\Program Files\QGIS 4.2.2\bin\qgis-ltr-bin.exe"
+SET QGIS_EXE_PATH="C:\Program Files\QGIS 4.2.2\bin\qgis-bin.exe"
 
 IF NOT EXIST %QGIS_EXE_PATH% (
 	echo Not found QGIS executable in %QGIS_EXE_PATH%
@@ -31,6 +31,7 @@ if exist "qgis_profiles" SET QGIS_CUSTOM_CONFIG_PATH=%~dp0qgis_profiles
 if exist "qgis_settings\qgis_global_settings.ini" SET QGIS_GLOBAL_SETTINGS_FILE=%~dp0qgis\parameters\qgis_global_settings.ini
 if exist "custom_python.py" SET PYQGIS_STARTUP=%~dp0qgis\parameters\custom_python.py
 if exist "qgis_opencl_program_folder" SET QGIS_OPENCL_PROGRAM_FOLDER=%~dp0qgis\parameters\qgis_opencl_program_folder
+if exist "qgis_log_files.log" SET QGIS_LOG_FILE=%~dp0qgis\misc\qgis_log_files.log
 
 if exist "%~dp0pgservice.conf" (
  SET PGSERVICEFILE=%~dp0pgservice.conf

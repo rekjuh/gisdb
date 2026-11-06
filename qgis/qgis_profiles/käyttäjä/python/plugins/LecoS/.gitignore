@@ -1,0 +1,10 @@
+.eunit
+deps
+*.o
+*.beam
+*.plt
+*.*~
+*.plt
+.spyderworkspace
+*.pyc
+__pycache__/

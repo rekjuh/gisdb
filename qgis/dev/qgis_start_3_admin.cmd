@@ -31,6 +31,7 @@ if exist "qgis_profiles" SET QGIS_CUSTOM_CONFIG_PATH=%~dp0qgis_profiles
 if exist "qgis_settings\qgis_global_settings.ini" SET QGIS_GLOBAL_SETTINGS_FILE=%~dp0qgis\parameters\qgis_global_settings.ini
 if exist "custom_python.py" SET PYQGIS_STARTUP=%~dp0qgis\parameters\custom_python.py
 if exist "qgis_opencl_program_folder" SET QGIS_OPENCL_PROGRAM_FOLDER=%~dp0qgis\parameters\qgis_opencl_program_folder
+if exist "qgis_log_files.log" SET QGIS_LOG_FILE=%~dp0qgis\misc\qgis_log_files.log
 
 if exist "%~dp0pgservice.conf" (
  SET PGSERVICEFILE=%~dp0pgservice.conf

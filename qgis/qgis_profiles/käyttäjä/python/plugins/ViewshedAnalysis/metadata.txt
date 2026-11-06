@@ -1,0 +1,34 @@
+# Mandatory items:
+
+[general]
+name=Visibility Analysis
+qgisMinimumVersion=3.0
+supportsQt6=yes
+description=Visibility analysis over raster DEM
+version=1.9.2
+author=Zoran Čučković
+email=contact@zoran-cuckovic.from.hr
+
+about=Viewshed analysis calculates visible surface from a given observer point over a digital elevation model. Additionally, this plugin can be used for modelling intervisibilty networks between groups of points. It is particularly performant for multiple viewshed calculations form a set of fixed points. 
+
+tracker=https://github.com/zoran-cuckovic/QGIS-visibility-analysis/issues
+repository=https://github.com/zoran-cuckovic/QGIS-visibility-analysis/tree/experimental
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=yes
+# Uncomment the following line and add your changelog:
+changelog="Target height implemented for visibility index algorithm."
+
+# Tags are comma separated with spaces allowed
+tags=Viewshed, Visibility, Raster
+
+homepage=https://landscapearchaeology.org/qgis-visibility-analysis/
+category=Raster Analysis
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
