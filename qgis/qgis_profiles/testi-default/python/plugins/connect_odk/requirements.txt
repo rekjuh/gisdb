@@ -1,9 +1,0 @@
-numpy
-pandas
-geopandas 
-fiona
-numpy
-pandas
-shapely
-fpdf
-pyproj
